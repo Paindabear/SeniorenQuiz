@@ -75,6 +75,15 @@ object QuizRepository {
                     val file = File(context.filesDir, LOCAL_QUESTIONS_FILE)
                     file.writeText(jsonString)
                     cachedQuestions = null // Cache invalidieren, nächster getQuestions nutzt neue Datei
+
+                    // Benachrichtigung auf dem Main Thread
+                    android.os.Handler(android.os.Looper.getMainLooper()).post {
+                        android.widget.Toast.makeText(
+                            context,
+                            context.getString(R.string.questions_updated_success),
+                            android.widget.Toast.LENGTH_LONG
+                        ).show()
+                    }
                 }
             } catch (e: Exception) {
                 // Kein Internet oder Fehler – unkritisch, es gibt die Asset-Fragen

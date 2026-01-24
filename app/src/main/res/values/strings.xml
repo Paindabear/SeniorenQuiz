@@ -25,4 +25,5 @@
     <string name="category_rumpel">Rumpelstilzchen</string>
     <string name="category_goats">Wolf &amp; 7 Geißlein</string>
     <string name="default_quiz_title">Quiz</string>
+    <string name="questions_updated_success">Neue Fragen wurden erfolgreich geladen!</string>
 </resources>
