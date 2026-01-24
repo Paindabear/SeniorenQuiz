@@ -33,7 +33,7 @@ Die Dateinamen müssen **exakt** übereinstimmen (Kleinschreibung beachten!).
 - [ ] `kastanie.jpg` (Kastanie)
 - [ ] `eiche.jpg` (Eiche/Eichenblatt)
 - [ ] `ahorn.jpg` (Ahornblatt)
-- [ ] `birke.jpg` (Birke)
+- [x] `birke.jpg` (Birke)
 - [ ] `edelweiss.jpg` (Edelweiß)
 - [ ] `mohnblume.jpg` (Mohnblume)
 - [ ] `kornblume.jpg` (Kornblume)
@@ -55,14 +55,14 @@ Die Dateinamen müssen **exakt** übereinstimmen (Kleinschreibung beachten!).
 - [ ] `soeder.jpg` (Markus Söder)
 - [ ] `scholz.jpg` (Olaf Scholz)
 - [ ] `habeck.jpg` (Robert Habeck)
-- [ ] `vonderleyen.jpg` (Ursula von der Leyen)
+- [x] `vonderleyen.jpg` (Ursula von der Leyen)
 
 ---
 
 ## Audio (audio.json)
 
 ### Stimmen
-- [ ] `kennedy.mp3` (Ich bin ein Berliner)
+- [x] `kennedy.mp3` (Ich bin ein Berliner)
 - [ ] `ulbricht.mp3` (Niemand hat die Absicht...)
 - [ ] `kohl.mp3` (Helmut Kohl)
 - [ ] `beckenbauer.mp3` (Franz Beckenbauer)

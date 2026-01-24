@@ -69,6 +69,11 @@ class QuizActivity : AppCompatActivity() {
 
         binding.btnJoker.setOnClickListener { useJoker() }
 
+        binding.btnMagnify.setOnClickListener { showFullScreenImage() }
+        binding.ivQuizImage.setOnClickListener { showFullScreenImage() }
+        binding.btnCloseFullScreen.setOnClickListener { closeFullScreenImage() }
+        binding.fullScreenContainer.setOnClickListener { closeFullScreenImage() }
+
         binding.btnNext.setOnClickListener {
             viewModel.currentQuestionIndex++
             if (viewModel.currentQuestionIndex < viewModel.questionList.size) {
@@ -77,6 +82,25 @@ class QuizActivity : AppCompatActivity() {
                 finishQuiz()
             }
         }
+    }
+
+    private fun showFullScreenImage() {
+        val question = viewModel.getCurrentQuestion() ?: return
+        if (!question.imagePath.isNullOrEmpty()) {
+            try {
+                val path = question.imagePath.removePrefix("assets/")
+                val inputStream = assets.open(path)
+                val drawable = android.graphics.drawable.Drawable.createFromStream(inputStream, null)
+                binding.ivFullScreenImage.setImageDrawable(drawable)
+                binding.fullScreenContainer.visibility = View.VISIBLE
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }
+    }
+
+    private fun closeFullScreenImage() {
+        binding.fullScreenContainer.visibility = View.GONE
     }
 
     private fun updateUI() {
@@ -111,6 +135,8 @@ class QuizActivity : AppCompatActivity() {
         binding.btnAnswer3.text = question.answers[2]
 
         // Media Reset & Loading
+        // Media Reset & Loading
+        binding.imageContainer.visibility = View.GONE
         binding.ivQuizImage.visibility = View.GONE
         binding.btnPlayAudio.visibility = View.GONE
         stopAudio()
@@ -123,6 +149,7 @@ class QuizActivity : AppCompatActivity() {
                 val drawable = android.graphics.drawable.Drawable.createFromStream(inputStream, null)
                 binding.ivQuizImage.setImageDrawable(drawable)
                 binding.ivQuizImage.visibility = View.VISIBLE
+                binding.imageContainer.visibility = View.VISIBLE
             } catch (e: Exception) {
                 e.printStackTrace()
             }
