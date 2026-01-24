@@ -1,0 +1,4592 @@
+[
+  {
+    "text": "Welches Tier legt Eier?",
+    "answers": [
+      "Hund",
+      "Huhn",
+      "Katze"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Was verlieren Laubbäume im Winter?",
+    "answers": [
+      "Blätter",
+      "Äste",
+      "Wurzeln"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welcher Vogel ist für sein Hämmern am Baum bekannt?",
+    "answers": [
+      "Amsel",
+      "Specht",
+      "Adler"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welche Farbe hat Gras im Sommer meistens?",
+    "answers": [
+      "Blau",
+      "Grün",
+      "Rot"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Was machen Bienen hauptsächlich?",
+    "answers": [
+      "Schwimmen",
+      "Schlafen",
+      "Honig sammeln"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welches Tier hat einen Rüssel?",
+    "answers": [
+      "Elefant",
+      "Giraffe",
+      "Löwe"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Morgenstund hat ... im Mund.",
+    "answers": [
+      "Gold",
+      "Silber",
+      "Blei"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Wer anderen eine Grube gräbt, ...",
+    "answers": [
+      "... bekommt einen Preis",
+      "... fällt selbst hinein",
+      "... ist ein Bauarbeiter"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Es ist noch kein Meister ...",
+    "answers": [
+      "... reich geworden",
+      "... geboren worden",
+      "... vom Himmel gefallen"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Lügen haben ...",
+    "answers": [
+      "... kurze Beine",
+      "... lange Beine",
+      "... gar keine Beine"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Der Apfel fällt nicht weit vom ...",
+    "answers": [
+      "... Pferd",
+      "... Stamm",
+      "... Baum"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Viele Köche verderben ...",
+    "answers": [
+      "... den Brei",
+      "... das Fleisch",
+      "... die Suppe"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Wer war der erste Bundeskanzler der BRD?",
+    "answers": [
+      "Willy Brandt",
+      "Helmut Kohl",
+      "Konrad Adenauer"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Womit bezahlte man in Deutschland vor dem Euro?",
+    "answers": [
+      "D-Mark",
+      "Reichsmark",
+      "Taler"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Welches Bauwerk teilte Berlin lange Zeit?",
+    "answers": [
+      "Der Turm",
+      "Die Mauer",
+      "Die Brücke"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wann endete der zweite Weltkrieg?",
+    "answers": [
+      "1918",
+      "1945",
+      "1989"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wer entdeckte Amerika im Jahr 1492?",
+    "answers": [
+      "Christoph Kolumbus",
+      "Vasco da Gama",
+      "Marco Polo"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wie hieß die Frau von Prinz Charles, die 1997 verstarb?",
+    "answers": [
+      "Lady Gaga",
+      "Lady Di",
+      "Lady Jane"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Welcher Fluss fließt durch Köln?",
+    "answers": [
+      "Elbe",
+      "Rhein",
+      "Donau"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wie heißt die Hauptstadt von Deutschland?",
+    "answers": [
+      "Berlin",
+      "München",
+      "Hamburg"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "In welchem Land liegt Paris?",
+    "answers": [
+      "Spanien",
+      "Italien",
+      "Frankreich"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Welches ist das höchste Gebirge in Europa?",
+    "answers": [
+      "Alpen",
+      "Anden",
+      "Rocky Mountains"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wo geht die Sonne auf?",
+    "answers": [
+      "Im Westen",
+      "Im Süden",
+      "Im Osten"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Welche Stadt wird auch 'Elbflorenz' genannt?",
+    "answers": [
+      "Dresden",
+      "Leipzig",
+      "Magdeburg"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wer sang 'Griechischer Wein'?",
+    "answers": [
+      "Udo Jürgens",
+      "Peter Alexander",
+      "Roy Black"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Welches Instrument hat Tasten?",
+    "answers": [
+      "Gitarre",
+      "Trompete",
+      "Klavier"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer sang 'Marmor, Stein und Eisen bricht'?",
+    "answers": [
+      "Rex Gildo",
+      "Drafi Deutscher",
+      "Heino"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wie viele Saiten hat eine klassische Gitarre üblicherweise?",
+    "answers": [
+      "4",
+      "6",
+      "12"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Hoch auf dem ... Wagen.",
+    "answers": [
+      "... blauen",
+      "... gelben",
+      "... roten"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer kommt 'alle Jahre wieder'?",
+    "answers": [
+      "Der Weihnachtsmann",
+      "Das Christuskind",
+      "Der Osterhase"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer spielte 'Winnetou'?",
+    "answers": [
+      "Lex Barker",
+      "Pierre Brice",
+      "Götz George"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "TV"
+  },
+  {
+    "text": "Welche Krimiserie läuft traditionell am Sonntagabend?",
+    "answers": [
+      "Tatort",
+      "Derrick",
+      "Der Alte"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wer moderierte 'Wetten, dass..?' am längsten?",
+    "answers": [
+      "Günther Jauch",
+      "Thomas Gottschalk",
+      "Rudi Carrell"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "TV"
+  },
+  {
+    "text": "Wie hieß das Pferd von Pippi Langstrumpf?",
+    "answers": [
+      "Herr Nilsson",
+      "Kleiner Onkel",
+      "Fury"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "TV"
+  },
+  {
+    "text": "Welcher Filmklassiker spielt in Marokko?",
+    "answers": [
+      "Vom Winde verweht",
+      "Ben Hur",
+      "Casablanca"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "TV"
+  },
+  {
+    "text": "Heidi lebte bei ihrem Großvater, dem ...",
+    "answers": [
+      "... Alm-Öhi",
+      "... Berg-Hans",
+      "... Wald-Schrat"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wie heißt unser Zentralgestirn?",
+    "answers": [
+      "Mond",
+      "Sonne",
+      "Mars"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPACE"
+  },
+  {
+    "text": "Wer war der erste Mensch auf dem Mond?",
+    "answers": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Juri Gagarin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Wie viele Planeten hat unser Sonnensystem?",
+    "answers": [
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Welcher Planet wird der 'Rote Planet' genannt?",
+    "answers": [
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPACE"
+  },
+  {
+    "text": "Womit kann man Sterne besser beobachten?",
+    "answers": [
+      "Lupe",
+      "Mikroskop",
+      "Teleskop"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was ist die ISS?",
+    "answers": [
+      "Ein Schiff",
+      "Eine Raumstation",
+      "Ein Flugzeug"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was ist Hauptbestandteil von Marzipan?",
+    "answers": [
+      "Mandeln",
+      "Haselnüsse",
+      "Walnüsse"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Woraus besteht Tofu?",
+    "answers": [
+      "Milch",
+      "Soja",
+      "Weizen"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "FOOD"
+  },
+  {
+    "text": "Welches Gewürz ist sehr teuer und rot?",
+    "answers": [
+      "Pfeffer",
+      "Safran",
+      "Zimt"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was gehört traditionell zu Spargel?",
+    "answers": [
+      "Ketchup",
+      "Hollandaise",
+      "Senf"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "FOOD"
+  },
+  {
+    "text": "Welche Frucht ist außen gelb und krumm?",
+    "answers": [
+      "Birne",
+      "Banane",
+      "Apfel"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was ist 'Berliner Weiße'?",
+    "answers": [
+      "Ein Brot",
+      "Ein Bier",
+      "Eine Wurst"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "FOOD"
+  },
+  {
+    "text": "Wie viele Spieler hat eine Fußballmannschaft auf dem Feld?",
+    "answers": [
+      "9",
+      "10",
+      "11"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "SPORT"
+  },
+  {
+    "text": "Welches Gerät benötigt man zum Stricken?",
+    "answers": [
+      "Nadeln",
+      "Hammer",
+      "Zange"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was muss beim Schach Matt gesetzt werden?",
+    "answers": [
+      "Die Dame",
+      "Der König",
+      "Der Turm"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPORT"
+  },
+  {
+    "text": "Boris Becker war ein berühmter...",
+    "answers": [
+      "... Fußballer",
+      "... Schwimmer",
+      "... Tennisspieler"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "SPORT"
+  },
+  {
+    "text": "Welche Farbe hat die Mitte einer Zielscheibe beim Bogenschießen?",
+    "answers": [
+      "Gold/Gelb",
+      "Rot",
+      "Blau"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was wirft man beim Kegeln um?",
+    "answers": [
+      "Pins",
+      "Kegel",
+      "Dosen"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPORT"
+  },
+  {
+    "text": "Wie viele Beine hat eine Spinne?",
+    "answers": [
+      "6",
+      "8",
+      "10"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welches Tier hält Winterschlaf?",
+    "answers": [
+      "Löwe",
+      "Igel",
+      "Adler"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Was ist eine Eiche?",
+    "answers": [
+      "Ein Baum",
+      "Eine Blume",
+      "Ein Pilz"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welcher Vogel kann nicht fliegen?",
+    "answers": [
+      "Amsel",
+      "Strauß",
+      "Schwalbe"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welches Tier gibt Milch?",
+    "answers": [
+      "Huhn",
+      "Kuh",
+      "Fisch"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welche Farbe hat der Himmel bei klarem Wetter?",
+    "answers": [
+      "Grün",
+      "Blau",
+      "Lila"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Probieren geht über ...",
+    "answers": [
+      "... Studieren",
+      "... Verlieren",
+      "... Regieren"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Wer A sagt, muss auch ...",
+    "answers": [
+      "... C sagen",
+      "... weg rennen",
+      "... B sagen"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Was lange währt, ...",
+    "answers": [
+      "... wird endlich gut",
+      "... ist langweilig",
+      "... geht kaputt"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Reden ist Silber, Schweigen ist ...",
+    "answers": [
+      "... Blech",
+      "... Gold",
+      "... Kupfer"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Stille Wasser sind ...",
+    "answers": [
+      "... tief",
+      "... nass",
+      "... laut"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Übung macht den ...",
+    "answers": [
+      "... Lehrer",
+      "... Schüler",
+      "... Meister"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Wer erbaute die Pyramiden?",
+    "answers": [
+      "Römer",
+      "Ägypter",
+      "Griechen"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wann fiel die Berliner Mauer?",
+    "answers": [
+      "1989",
+      "1961",
+      "1990"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wer war der 'Sonnenkönig'?",
+    "answers": [
+      "Ludwig XIV.",
+      "Karl der Große",
+      "Napoleon"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Welche Stadt wurde durch einen Vulkan zerstört?",
+    "answers": [
+      "Rom",
+      "Pompeji",
+      "Athen"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wie hieß der erste Mensch im Weltall?",
+    "answers": [
+      "Neil Armstrong",
+      "Juri Gagarin",
+      "Buzz Aldrin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "HISTORY"
+  },
+  {
+    "text": "In welchem Jahr begann der 1. Weltkrieg?",
+    "answers": [
+      "1914",
+      "1939",
+      "1871"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Welcher Ozean liegt zwischen Europa und Amerika?",
+    "answers": [
+      "Pazifik",
+      "Atlantik",
+      "Indischer Ozean"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Welches ist das größte Land der Welt?",
+    "answers": [
+      "USA",
+      "China",
+      "Russland"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wie viele Bundesländer hat Deutschland?",
+    "answers": [
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wo liegt der Schwarzwald?",
+    "answers": [
+      "Bayern",
+      "Thüringen",
+      "Baden-Württemberg"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Welcher Kontinent ist der kälteste?",
+    "answers": [
+      "Antarktis",
+      "Europa",
+      "Afrika"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Hauptstadt von Italien?",
+    "answers": [
+      "Venedig",
+      "Mailand",
+      "Rom"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wer komponierte die 'Kleine Nachtmusik'?",
+    "answers": [
+      "Mozart",
+      "Beethoven",
+      "Bach"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Welches Instrument hat 88 Tasten?",
+    "answers": [
+      "Klavier",
+      "Geige",
+      "Flöte"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer sang 'Atemlos durch die Nacht'?",
+    "answers": [
+      "Andrea Berg",
+      "Helene Fischer",
+      "Nena"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Was ist ein Dirigent?",
+    "answers": [
+      "Ein Musiker",
+      "Ein Orchesterleiter",
+      "Ein Sänger"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Welche Band stammt aus Liverpool?",
+    "answers": [
+      "Rolling Stones",
+      "The Beatles",
+      "ABBA"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Sing, mei Sachse, ...",
+    "answers": [
+      "... tanz",
+      "... lach",
+      "... sing"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer spielte 'James Bond'?",
+    "answers": [
+      "Sean Connery",
+      "Tom Cruise",
+      "Brad Pitt"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wie heißt die Ente von Walt Disney?",
+    "answers": [
+      "Donald Duck",
+      "Mickey Mouse",
+      "Dagobert"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "In welcher Stadt spielt 'Großstadtrevier'?",
+    "answers": [
+      "Berlin",
+      "Hamburg",
+      "Köln"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "TV"
+  },
+  {
+    "text": "Wer ist der Partner von Stan Laurel?",
+    "answers": [
+      "Charlie Chaplin",
+      "Oliver Hardy",
+      "Buster Keaton"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "TV"
+  },
+  {
+    "text": "Welche Farbe hat der rosarote Panther wirklich?",
+    "answers": [
+      "Blau",
+      "Pink",
+      "Gelb"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "TV"
+  },
+  {
+    "text": "Wie heißt der Bär im Dschungelbuch?",
+    "answers": [
+      "Balu",
+      "Bagheera",
+      "Shir Khan"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Welcher Planet hat Ringe?",
+    "answers": [
+      "Mars",
+      "Saturn",
+      "Merkur"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPACE"
+  },
+  {
+    "text": "Wie nennt man eine Sternschnuppe auch?",
+    "answers": [
+      "Meteor",
+      "Komet",
+      "Asteroid"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was ist die Milchstraße?",
+    "answers": [
+      "Ein Schokoriegel",
+      "Unsere Galaxie",
+      "Ein Fluss"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPACE"
+  },
+  {
+    "text": "Wann war die erste Mondlandung?",
+    "answers": [
+      "1959",
+      "1969",
+      "1979"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPACE"
+  },
+  {
+    "text": "Welcher Planet ist der Sonne am nächsten?",
+    "answers": [
+      "Venus",
+      "Merkur",
+      "Erde"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was nutzen Astronauten zum Atmen im All?",
+    "answers": [
+      "Sauerstofftanks",
+      "Kiemen",
+      "Nichts"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Woraus macht man Wein?",
+    "answers": [
+      "Trauben",
+      "Äpfel",
+      "Birnen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was ist ein 'Halver Hahn' im Rheinland?",
+    "answers": [
+      "Ein Hähnchen",
+      "Ein Roggenbrötchen mit Käse",
+      "Ein Hahn"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "FOOD"
+  },
+  {
+    "text": "Welches Getränk enthält Koffein?",
+    "answers": [
+      "Wasser",
+      "Kaffee",
+      "Milch"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was ist Sauerkraut?",
+    "answers": [
+      "Vergorener Kohl",
+      "Saurer Salat",
+      "Grünes Gemüse"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Welches Land ist bekannt für Pizza?",
+    "answers": [
+      "Frankreich",
+      "Italien",
+      "Griechenland"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "FOOD"
+  },
+  {
+    "text": "Woraus besteht Schokolade hauptsächlich?",
+    "answers": [
+      "Kakao",
+      "Vanille",
+      "Zimt"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Wie lange dauert ein Fußballspiel regulär?",
+    "answers": [
+      "45 Min",
+      "90 Min",
+      "100 Min"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPORT"
+  },
+  {
+    "text": "Welchen Schläger braucht man beim Tennis?",
+    "answers": [
+      "Tennisschläger",
+      "Golfschläger",
+      "Baseballschläger"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Wo finden alle 4 Jahre Olympische Spiele statt?",
+    "answers": [
+      "Immer in Athen",
+      "An verschiedenen Orten",
+      "In Berlin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was ist beim Basketball das Ziel?",
+    "answers": [
+      "Tor schießen",
+      "Korb werfen",
+      "Lauf gewinnen"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPORT"
+  },
+  {
+    "text": "Welche Farbe hat das Trikot des Gesamtführenden der Tour de France?",
+    "answers": [
+      "Gelb",
+      "Grün",
+      "Gepunktet"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was macht man beim Yoga?",
+    "answers": [
+      "Rennen",
+      "Kämpfen",
+      "Dehnen & Atmen"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was fressen Pandas hauptsächlich?",
+    "answers": [
+      "Fleisch",
+      "Bambus",
+      "Fisch"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welches Tier ist der 'König der Tiere'?",
+    "answers": [
+      "Tiger",
+      "Löwe",
+      "Bär"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Wie viele Höcker hat ein Trampeltier?",
+    "answers": [
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welches Insekt produziert Seide?",
+    "answers": [
+      "Spinne",
+      "Seidenraupe",
+      "Biene"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welcher Fisch wird oft als Goldfisch gehalten?",
+    "answers": [
+      "Karpfen",
+      "Hai",
+      "Lachs"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Was ist ein Krokus?",
+    "answers": [
+      "Ein Reptil",
+      "Ein Frühblüher",
+      "Ein Edelstein"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "In der Kürze liegt die ...",
+    "answers": [
+      "... Würze",
+      "... Zeit",
+      "... Länge"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Kleinvieh macht auch ...",
+    "answers": [
+      "... Krach",
+      "... Mist",
+      "... Arbeit"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Man soll den Tag nicht vor dem ... loben.",
+    "answers": [
+      "... Abend",
+      "... Morgen",
+      "... Mittag"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Jeder ist seines Glückes ...",
+    "answers": [
+      "... Schmied",
+      "... Feind",
+      "... Freund"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Wer nicht hören will, muss ...",
+    "answers": [
+      "... sehen",
+      "... fühlen",
+      "... schreien"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Ende gut, ...",
+    "answers": [
+      "... alles gut",
+      "... alles schlecht",
+      "... nichts gut"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Wer war Kaiser von Frankreich?",
+    "answers": [
+      "Napoleon",
+      "Caesar",
+      "Alexander der Große"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wann war der Prager Frühling?",
+    "answers": [
+      "1968",
+      "1950",
+      "1980"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wer gründete das Deutsche Reich 1871?",
+    "answers": [
+      "Otto von Bismarck",
+      "Friedrich II.",
+      "Konrad Adenauer"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wie hieß das Schiff, das 1912 unterging?",
+    "answers": [
+      "Titanic",
+      "Bismarck",
+      "Santa Maria"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wer war Martin Luther?",
+    "answers": [
+      "Ein Reformator",
+      "Ein König",
+      "Ein Entdecker"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Welches Land war in West und Ost geteilt?",
+    "answers": [
+      "Frankreich",
+      "Deutschland",
+      "Polen"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Auf welchem Kontinent liegt Ägypten?",
+    "answers": [
+      "Asien",
+      "Europa",
+      "Afrika"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Welches ist der längste Fluss der Welt?",
+    "answers": [
+      "Nil",
+      "Rhein",
+      "Donau"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "In welchem Land liegt das Matterhorn?",
+    "answers": [
+      "Schweiz",
+      "Österreich",
+      "Deutschland"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wie heißt die Hauptstadt von Frankreich?",
+    "answers": [
+      "Lyon",
+      "Marseille",
+      "Paris"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Welches Meer liegt nördlich von Deutschland?",
+    "answers": [
+      "Ostsee",
+      "Mittelmeer",
+      "Schwarzes Meer"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wo steht der Schiefe Turm?",
+    "answers": [
+      "Rom",
+      "Pisa",
+      "Venedig"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wer komponierte die 'Ode an die Freude'?",
+    "answers": [
+      "Beethoven",
+      "Mozart",
+      "Wagner"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Was ist eine Geige?",
+    "answers": [
+      "Streichinstrument",
+      "Blasinstrument",
+      "Schlaginstrument"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer ist der 'King of Rock n Roll'?",
+    "answers": [
+      "Elvis Presley",
+      "Michael Jackson",
+      "Prince"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Welches Instrument spielt man mit Stöcken?",
+    "answers": [
+      "Trommel",
+      "Gitarre",
+      "Klavier"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wie viele Linien hat ein Notensystem?",
+    "answers": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer sang 'Ich war noch niemals in New York'?",
+    "answers": [
+      "Udo Jürgens",
+      "Howard Carpendale",
+      "Roland Kaiser"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wie heißt der berühmteste Geheimagent der Welt?",
+    "answers": [
+      "007",
+      "0815",
+      "4711"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wer spielte 'Sissi'?",
+    "answers": [
+      "Romy Schneider",
+      "Marlene Dietrich",
+      "Hildegard Knef"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Welche Serie spielt im Krankenhaus?",
+    "answers": [
+      "Schwarzwaldklinik",
+      "Lindenstraße",
+      "Tatort"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wer ist der Vater von Luke Skywalker?",
+    "answers": [
+      "Darth Vader",
+      "Obi Wan",
+      "Yoda"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wie heißt der Hund von Tim?",
+    "answers": [
+      "Struppi",
+      "Pluto",
+      "Snoopy"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Welcher Komiker trug eine Melone?",
+    "answers": [
+      "Charlie Chaplin",
+      "Loriot",
+      "Otto"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Was ist der Mond?",
+    "answers": [
+      "Ein Trabant",
+      "Ein Stern",
+      "Ein Planet"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Wie viele Stunden hat ein Tag auf der Erde?",
+    "answers": [
+      "12",
+      "24",
+      "48"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was ist die Sonne?",
+    "answers": [
+      "Ein Planet",
+      "Ein Fixstern",
+      "Ein Komet"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPACE"
+  },
+  {
+    "text": "Welcher Planet hat einen großen roten Fleck?",
+    "answers": [
+      "Jupiter",
+      "Mars",
+      "Venus"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Wie heißt unsere Galaxie?",
+    "answers": [
+      "Milchstraße",
+      "Schokostraße",
+      "Sternenstraße"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was braucht eine Rakete zum Starten?",
+    "answers": [
+      "Treibstoff",
+      "Wind",
+      "Wasser"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was ist die Hauptzutat von Brot?",
+    "answers": [
+      "Mehl",
+      "Zucker",
+      "Salz"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Welches Gemüse macht weinen?",
+    "answers": [
+      "Zwiebel",
+      "Karotte",
+      "Gurke"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was ist ein Apfel?",
+    "answers": [
+      "Kernobst",
+      "Steinobst",
+      "Beerenobst"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Woraus besteht Butter?",
+    "answers": [
+      "Rahm/Sahne",
+      "Öl",
+      "Wasser"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was trinkt man in England gerne um 17 Uhr?",
+    "answers": [
+      "Tee",
+      "Kaffee",
+      "Saft"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Welche Farbe hat Rotkohl?",
+    "answers": [
+      "Rot/Lila",
+      "Grün",
+      "Gelb"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Wie viele Löcher hat ein Golfplatz meistens?",
+    "answers": [
+      "9 oder 18",
+      "10 oder 20",
+      "5 oder 10"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was braucht man zum Schwimmen?",
+    "answers": [
+      "Badehose/Anzug",
+      "Helm",
+      "Handschuhe"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Welcher Sport wird auf Eis gespielt?",
+    "answers": [
+      "Eishockey",
+      "Fußball",
+      "Handball"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Wer ist Steffi Graf?",
+    "answers": [
+      "Tennisspielerin",
+      "Läuferin",
+      "Schwimmerin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was ist ein Elfmeter?",
+    "answers": [
+      "Strafstoß beim Fußball",
+      "Ein langes Maßband",
+      "Eine Laufstrecke"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Womit spielt man Badminton?",
+    "answers": [
+      "Federball",
+      "Tennisball",
+      "Golfball"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was ist ein Fliegenpilz?",
+    "answers": [
+      "Essbar",
+      "Giftig",
+      "Ein Tier"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welches Tier baut Dämme?",
+    "answers": [
+      "Biber",
+      "Dachs",
+      "Fuchs"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Wie viele Beine hat ein Insekt?",
+    "answers": [
+      "4",
+      "6",
+      "8"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Was ist Lavendel?",
+    "answers": [
+      "Eine Pflanze",
+      "Ein Stein",
+      "Ein Tier"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welcher Vogel ist ein Symbol für Frieden?",
+    "answers": [
+      "Adler",
+      "Taube",
+      "Rabe"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Was verlieren Hirsche jedes Jahr?",
+    "answers": [
+      "Zähne",
+      "Geweih",
+      "Hufe"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Der frühe Vogel fängt den ...",
+    "answers": [
+      "... Wurm",
+      "... Fisch",
+      "... Tag"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Einem geschenkten Gaul schaut man nicht ins ...",
+    "answers": [
+      "... Auge",
+      "... Ohr",
+      "... Maul"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Hochmut kommt vor dem ...",
+    "answers": [
+      "... Erfolg",
+      "... Fall",
+      "... Ende"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Wer den Pfennig nicht ehrt, ...",
+    "answers": [
+      "... ist reich",
+      "... ist geizig",
+      "... ist des Talers nicht wert"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Alter schützt vor ... nicht.",
+    "answers": [
+      "... Liebe",
+      "... Torheit",
+      "... Weisheit"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Was man nicht im Kopf hat, hat man in den ...",
+    "answers": [
+      "... Händen",
+      "... Taschen",
+      "... Beinen"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Wer war der 'Eiserne Kanzler'?",
+    "answers": [
+      "Adenauer",
+      "Bismarck",
+      "Kohl"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wann begann der Bau der Berliner Mauer?",
+    "answers": [
+      "1945",
+      "1961",
+      "1989"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Welcher berühmte Römer wurde im Senat ermordet?",
+    "answers": [
+      "Nero",
+      "Augustus",
+      "Caesar"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wer war Sophie Scholl?",
+    "answers": [
+      "Eine Sportlerin",
+      "Eine Politikerin",
+      "Widerstandskämpferin"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wann begann die Französische Revolution?",
+    "answers": [
+      "1789",
+      "1871",
+      "1914"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wer war Kleopatra?",
+    "answers": [
+      "Königin von Ägypten",
+      "Römische Kaiserin",
+      "Griechische Gottin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Welches Land hat die Form eines Stiefels?",
+    "answers": [
+      "Spanien",
+      "Italien",
+      "Griechenland"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "In welcher Stadt steht das Brandenburger Tor?",
+    "answers": [
+      "München",
+      "Berlin",
+      "Hamburg"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Welcher Fluss fließt durch Hamburg?",
+    "answers": [
+      "Rhein",
+      "Donau",
+      "Elbe"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Was ist der größte Kontinent?",
+    "answers": [
+      "Afrika",
+      "Asien",
+      "Europa"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Welche ist die größte Insel Deutschlands?",
+    "answers": [
+      "Sylt",
+      "Rügen",
+      "Usedom"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wie heißt die Hauptstadt von Spanien?",
+    "answers": [
+      "Barcelona",
+      "Madrid",
+      "Sevilla"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wer ist als 'Walzerkönig' bekannt?",
+    "answers": [
+      "Beethoven",
+      "Johann Strauß",
+      "Bach"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer sang 'Über den Wolken'?",
+    "answers": [
+      "Udo Jürgens",
+      "Reinhard Mey",
+      "Peter Maffay"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Was ist ein Chor?",
+    "answers": [
+      "Eine Sängergruppe",
+      "Ein Instrument",
+      "Ein Tanz"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Welches Blasinstrument ist meist aus Holz?",
+    "answers": [
+      "Trompete",
+      "Posaune",
+      "Klarinette"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer komponierte die 'Zauberflöte'?",
+    "answers": [
+      "Mozart",
+      "Haydn",
+      "Schubert"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Was bezeichnet man als 'Oldie'?",
+    "answers": [
+      "Ein altes Auto",
+      "Ein altes Lied",
+      "Einen alten Mann"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer spielte 'Forrest Gump'?",
+    "answers": [
+      "Brad Pitt",
+      "Tom Hanks",
+      "Leonardo DiCaprio"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "TV"
+  },
+  {
+    "text": "Wer ist 'Harry Potter'?",
+    "answers": [
+      "Ein Detektiv",
+      "Ein Zauberer",
+      "Ein Pilot"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "TV"
+  },
+  {
+    "text": "In welcher Stadt spielt 'Soko 5113'?",
+    "answers": [
+      "Hamburg",
+      "München",
+      "Köln"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "TV"
+  },
+  {
+    "text": "Wer spielte die Hauptrolle in 'Don Camillo'?",
+    "answers": [
+      "Fernandel",
+      "Bud Spencer",
+      "Terence Hill"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wer jagt den Roadrunner?",
+    "answers": [
+      "Bugs Bunny",
+      "Der Coyote (Wile E.)",
+      "Daffy Duck"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "TV"
+  },
+  {
+    "text": "Wer ist Miss Marple?",
+    "answers": [
+      "Eine Köchin",
+      "Eine Lehrerin",
+      "Eine Detektivin"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "TV"
+  },
+  {
+    "text": "Welcher ist der größte Planet unseres Sonnensystems?",
+    "answers": [
+      "Jupiter",
+      "Erde",
+      "Mars"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was bedeutet UFO?",
+    "answers": [
+      "Unser ferner Onkel",
+      "Unbekanntes Flugobjekt",
+      "Unter Freunden"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPACE"
+  },
+  {
+    "text": "Worum kreist die Erde?",
+    "answers": [
+      "Den Mond",
+      "Die Sonne",
+      "Den Mars"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was verdunkelt sich bei einer Sonnenfinsternis?",
+    "answers": [
+      "Der Mond",
+      "Die Sonne",
+      "Die Erde"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPACE"
+  },
+  {
+    "text": "Wie hieß der erste Hund im All?",
+    "answers": [
+      "Lassie",
+      "Laika",
+      "Rex"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was ist das Hubble?",
+    "answers": [
+      "Ein Teleskop",
+      "Eine Rakete",
+      "Ein Planet"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Woraus bestehen Pommes Frites hauptsächlich?",
+    "answers": [
+      "Kartoffeln",
+      "Reis",
+      "Nudeln"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was ist ein 'Berliner' (Gebäck)?",
+    "answers": [
+      "Ein Keks",
+      "Ein Pfannkuchen",
+      "Eine Torte"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "FOOD"
+  },
+  {
+    "text": "Welches Getränk wird aus Hopfen und Malz gebraut?",
+    "answers": [
+      "Wein",
+      "Bier",
+      "Saft"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was ist Gouda?",
+    "answers": [
+      "Eine Wurst",
+      "Ein Käse",
+      "Ein Brot"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "FOOD"
+  },
+  {
+    "text": "Welches Gemüse ist typischerweise orange?",
+    "answers": [
+      "Gurke",
+      "Möhre/Karotte",
+      "Erbse"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was ist ein Wiener Schnitzel?",
+    "answers": [
+      "Ein paniertes Fleischstück",
+      "Eine Wurst",
+      "Ein Salat"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Wie viele Spieler hat eine Handballmannschaft auf dem Feld?",
+    "answers": [
+      "5",
+      "7",
+      "11"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPORT"
+  },
+  {
+    "text": "Wie lang ist ein Marathon (ca.)?",
+    "answers": [
+      "10 km",
+      "21 km",
+      "42 km"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was bedeutet die Rote Karte beim Fußball?",
+    "answers": [
+      "Tor",
+      "Platzverweis",
+      "Eckball"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPORT"
+  },
+  {
+    "text": "Wer war Muhammad Ali?",
+    "answers": [
+      "Ein Boxer",
+      "Ein Fußballer",
+      "Ein Sänger"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was kombiniert Biathlon?",
+    "answers": [
+      "Schwimmen & Rad",
+      "Laufen & Schießen",
+      "Reiten & Fechten"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPORT"
+  },
+  {
+    "text": "Wo wird das Tennisturnier Wimbledon gespielt?",
+    "answers": [
+      "Paris",
+      "London",
+      "New York"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SPORT"
+  },
+  {
+    "text": "Welches Tier ist der größte Fisch?",
+    "answers": [
+      "Walhai",
+      "Blauwal",
+      "Weißer Hai"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Was ist ein 'Goldener Delicious'?",
+    "answers": [
+      "Ein Apfel",
+      "Ein Birne",
+      "Ein Stein"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welcher Baum hat weiße Rinde?",
+    "answers": [
+      "Eiche",
+      "Birke",
+      "Kastanien"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Wie viele Flügel hat ein Schmetterling?",
+    "answers": [
+      "2",
+      "4",
+      "6"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welches Tier trägt sein Haus auf dem Rücken?",
+    "answers": [
+      "Schildkröte",
+      "Schnecke",
+      "Krabbe"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Was ist Moos?",
+    "answers": [
+      "Ein Pilz",
+      "Eine Pflanze",
+      "Eine Alge"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Wer zuletzt lacht, ...",
+    "answers": [
+      "... hat den Witz nicht verstanden",
+      "... lacht am besten",
+      "... ist langsam"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Ein blindes Huhn findet auch mal ...",
+    "answers": [
+      "... einen Wurm",
+      "... ein Korn",
+      "... einen Stall"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Wie man in den Wald hineinruft, ...",
+    "answers": [
+      "... so schallt es heraus",
+      "... so bleibt es still",
+      "... so kommen die Tiere"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Liebe macht ...",
+    "answers": [
+      "... dumm",
+      "... blind",
+      "... taub"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Scherben bringen ...",
+    "answers": [
+      "... Pech",
+      "... Glück",
+      "... Geld"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Zwei Dumme, ein ...",
+    "answers": [
+      "... Gedanke",
+      "... Weg",
+      "... Fehler"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Wann war der Berliner Mauerfall?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wer war der erste Präsident der USA?",
+    "answers": [
+      "Lincoln",
+      "Washington",
+      "Kennedy"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Welches Volk erfand die Demokratie?",
+    "answers": [
+      "Römer",
+      "Griechen",
+      "Ägypter"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wer entdeckte das Penicillin?",
+    "answers": [
+      "Fleming",
+      "Koch",
+      "Pasteur"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wie hieß die Währung in DDR?",
+    "answers": [
+      "Mark der DDR",
+      "Ostmark",
+      "D-Mark"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Welche Stadt war Hauptstadt der BRD vor Berlin?",
+    "answers": [
+      "Bonn",
+      "Frankfurt",
+      "Hamburg"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Welcher ist der längste Fluss Deutschlands?",
+    "answers": [
+      "Elbe",
+      "Rhein",
+      "Donau"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Welches Gebirge trennt Europa und Asien?",
+    "answers": [
+      "Alpen",
+      "Ural",
+      "Pyrenäen"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wo liegt Venedig?",
+    "answers": [
+      "Spanien",
+      "Italien",
+      "Kroatien"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Welches Land ist für Tulpen bekannt?",
+    "answers": [
+      "Deutschland",
+      "Niederlande",
+      "Dänemark"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Was ist die Hauptstadt von England?",
+    "answers": [
+      "London",
+      "Manchester",
+      "Liverpool"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "In welchem Land liegt die Sahara hauptsächlich?",
+    "answers": [
+      "Afrika (Kontinent)",
+      "Australien",
+      "Südamerika"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wer sang 'Marmor, Stein und Eisen bricht'?",
+    "answers": [
+      "Drafi Deutscher",
+      "Rex Gildo",
+      "Roy Black"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wie viele Tasten hat ein Akkordeon (Diskant)?",
+    "answers": [
+      "Unterschiedlich",
+      "Immer 88",
+      "Immer 12"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer ist die 'Königin der Volksmusik'?",
+    "answers": [
+      "Stefanie Hertel",
+      "Helene Fischer",
+      "Carolin Reiber"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer komponierte die 'Vier Jahreszeiten'?",
+    "answers": [
+      "Vivaldi",
+      "Bach",
+      "Händel"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Welches Instrument bläst man?",
+    "answers": [
+      "Trompete",
+      "Geige",
+      "Trommel"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wie nennt man den Text eines Liedes?",
+    "answers": [
+      "Lyrics/Liedtext",
+      "Drehbuch",
+      "Roman"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer spielte 'Der Alte' (erster Darsteller)?",
+    "answers": [
+      "Siegfried Lowitz",
+      "Rolf Schimpf",
+      "Walter Kreye"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wie heißt die Maus aus der 'Sendung mit der Maus'?",
+    "answers": [
+      "Die Maus",
+      "Mickey",
+      "Jerry"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Welcher Moderator machte 'Dalli Dalli'?",
+    "answers": [
+      "Hans Rosenthal",
+      "Götz Alsmann",
+      "Kai Pflaume"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wer ist 'Columbo'?",
+    "answers": [
+      "Ein Inspektor",
+      "Ein Arzt",
+      "Ein Anwalt"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wie heißt das Schiff beim Traumschiff?",
+    "answers": [
+      "MS Deutschland/Amadea",
+      "Titanic",
+      "Queen Mary"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wer spielte 'Schimanski'?",
+    "answers": [
+      "Götz George",
+      "Marius Müller-Westernhagen",
+      "Jürgen Vogel"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wie viele Monde hat die Erde?",
+    "answers": [
+      "1",
+      "2",
+      "Keinen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was ist ein Satellit?",
+    "answers": [
+      "Ein Himmelskörper/Gerät",
+      "Ein Stern",
+      "Ein Alien"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Wer war Sigmund Jähn?",
+    "answers": [
+      "Erster Deutscher im All",
+      "Ein Astronom",
+      "Ein Ufo-Forscher"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Wie heißt der Morgenstern?",
+    "answers": [
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was ist die NASA?",
+    "answers": [
+      "US-Raumfahrtbehörde",
+      "Eine Automarke",
+      "Ein Sternbild"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was sieht man bei Nacht am Himmel?",
+    "answers": [
+      "Sterne",
+      "Sonne",
+      "Regenbogen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Woraus besteht Quark?",
+    "answers": [
+      "Milch",
+      "Sahne",
+      "Eiern"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Welches Gewürz ist gelb?",
+    "answers": [
+      "Curry/Kurkuma",
+      "Paprika",
+      "Zimt"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was ist ein 'Strammer Max'?",
+    "answers": [
+      "Brot mit Schinken & Ei",
+      "Ein starker Mann",
+      "Ein Cocktail"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Welche Frucht hat viele Vitamin C?",
+    "answers": [
+      "Zitrone",
+      "Banane",
+      "Dattel"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was ist ein 'Radler'?",
+    "answers": [
+      "Bier mit Limo",
+      "Ein Sportler",
+      "Ein Schnaps"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was gehört in einen Kartoffelsalat (Süddeutsch)?",
+    "answers": [
+      "Brühe, Essig & Öl",
+      "Mayonnaise",
+      "Sahne"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Welche Sportart betreibt Bernhard Langer?",
+    "answers": [
+      "Golf",
+      "Tennis",
+      "Fußball"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was braucht man zum Skifahren?",
+    "answers": [
+      "Schi & Stöcke",
+      "Badehose",
+      "Ball"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Wie heißt der Ball beim Eishockey?",
+    "answers": [
+      "Puck",
+      "Ball",
+      "Scheibe"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Welche Farbe hat die Rote Karte?",
+    "answers": [
+      "Rot",
+      "Gelb",
+      "Blau"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was ist 'Walking'?",
+    "answers": [
+      "Schnelles Gehen",
+      "Rennen",
+      "Springen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Wo findet das Skispringen an Neujahr statt?",
+    "answers": [
+      "Garmisch-Partenkirchen",
+      "Oberstdorf",
+      "Bischofshofen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was ist ein Pfifferling?",
+    "answers": [
+      "Ein Vogel",
+      "Ein Pilz",
+      "Ein Fisch"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welches Tier steht für Ostern?",
+    "answers": [
+      "Hase",
+      "Fuchs",
+      "Lamm"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Was ist der 'König der Lüfte'?",
+    "answers": [
+      "Adler",
+      "Spatz",
+      "Taube"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welche Blume hat Dornen?",
+    "answers": [
+      "Rose",
+      "Tulpe",
+      "Nelke"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Was ist ein Fohlen?",
+    "answers": [
+      "Ein junges Pferd",
+      "Ein junger Hund",
+      "Eine junge Katze"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welcher Baum verliert im Winter keine Nadeln (meistens)?",
+    "answers": [
+      "Lärche",
+      "Tanne",
+      "Eiche"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "NATURE"
+  },
+  {
+    "text": "Ene, mene, miste, ...",
+    "answers": [
+      "... es rappelt in der Kiste",
+      "... der Hahn kräht auf dem Miste",
+      "... ich öffne die Kiste"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Geld allein macht nicht ...",
+    "answers": [
+      "... glücklich",
+      "... arm",
+      "... gesund"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Hunde, die bellen, ...",
+    "answers": [
+      "... beißen nicht",
+      "... rennen weg",
+      "... schlafen nie"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Wer anderen eine Grube gräbt, ...",
+    "answers": [
+      "... ist fleißig",
+      "... braucht eine Schaufel",
+      "... fällt selbst hinein"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Alles hat ein Ende, nur die Wurst hat ...",
+    "answers": [
+      "... zwei",
+      "... drei",
+      "... keins"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Lieber den Spatz in der Hand als ...",
+    "answers": [
+      "... die Taube auf dem Dach",
+      "... die Gans im Ofen",
+      "... den Adler im Nest"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Wer war Winnetous Blutsbruder?",
+    "answers": [
+      "Old Shatterhand",
+      "Old Firehand",
+      "Old Surehand"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Welche Stadt war im Mittelalter sehr mächtig (Hanse)?",
+    "answers": [
+      "Lübeck",
+      "München",
+      "Stuttgart"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wer erfand den Buchdruck?",
+    "answers": [
+      "Gutenberg",
+      "Luther",
+      "Fugger"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wann war die erste Mondlandung?",
+    "answers": [
+      "1969",
+      "1959",
+      "1979"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wer war Napoleon?",
+    "answers": [
+      "Ein französischer Feldherr/Kaiser",
+      "Ein deutscher König",
+      "Ein russischer Zar"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Was wurde 1949 gegründet?",
+    "answers": [
+      "Die BRD",
+      "Das Deutsche Reich",
+      "Die EU"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wie heißt der höchste Berg Deutschlands?",
+    "answers": [
+      "Zugspitze",
+      "Watzmann",
+      "Brocken"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Welcher Fluss fließt durch Dresden?",
+    "answers": [
+      "Elbe",
+      "Oder",
+      "Saale"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "In welchem Land liegen die Pyramiden?",
+    "answers": [
+      "Ägypten",
+      "Türkei",
+      "Marokko"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Welche Stadt hat den Eiffelturm?",
+    "answers": [
+      "Paris",
+      "London",
+      "Rom"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Was ist der Bodensee?",
+    "answers": [
+      "Ein See im Dreiländereck",
+      "Ein Meer",
+      "Ein Fluss"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Welches Land ist bekannt für Uhren und Schokolade?",
+    "answers": [
+      "Schweiz",
+      "Österreich",
+      "Belgien"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wer sang 'Aber bitte mit Sahne'?",
+    "answers": [
+      "Udo Jürgens",
+      "Roland Kaiser",
+      "Heino"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wie viele Saiten hat eine Geige?",
+    "answers": [
+      "4",
+      "6",
+      "5"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer komponierte die 9. Sinfonie?",
+    "answers": [
+      "Beethoven",
+      "Mozart",
+      "Haydn"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Was ist eine Harfe?",
+    "answers": [
+      "Zupfinstrument",
+      "Blasinstrument",
+      "Schlaginstrument"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer sang 'Er gehört zu mir'?",
+    "answers": [
+      "Marianne Rosenberg",
+      "Nena",
+      "Andrea Volk"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Welcher Tanz ist im 3/4-Takt?",
+    "answers": [
+      "Walzer",
+      "Foxtrott",
+      "Cha-Cha-Cha"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer ist 'Pippi Langstrumpf'?",
+    "answers": [
+      "Das stärkste Mädchen der Welt",
+      "Eine Prinzessin",
+      "Eine Hexe"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wie heißt der Elefant bei 'Sendung mit der Maus'?",
+    "answers": [
+      "Der Elefant (blau)",
+      "Babar",
+      "Benjamin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wer spielte 'Derrick'?",
+    "answers": [
+      "Horst Tappert",
+      "Fritz Wepper",
+      "Claus Theo Gärtner"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Welche Nachrichtensendung kommt um 20 Uhr?",
+    "answers": [
+      "Tagesschau",
+      "Heute Journal",
+      "RTL Aktuell"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wer ist 'Biene Maja'?",
+    "answers": [
+      "Eine Biene",
+      "Eine Wespe",
+      "Eine Fliege"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Welche Farbe hat das Sandmännchen meistens an?",
+    "answers": [
+      "Rot",
+      "Blau",
+      "Grün"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Was ist ein Komet?",
+    "answers": [
+      "Ein Schweifstern",
+      "Ein Planet",
+      "Ein Mond"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Welcher Planet hat Ringe (am bekanntesten)?",
+    "answers": [
+      "Saturn",
+      "Mars",
+      "Erde"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Wer war Juri Gagarin?",
+    "answers": [
+      "Erster Mensch im All",
+      "Erster auf dem Mond",
+      "Erster im Ozean"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Wie heißt unser Heimatplanet?",
+    "answers": [
+      "Erde",
+      "Mars",
+      "Venus"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was leuchtet nachts am Himmel (natürlich)?",
+    "answers": [
+      "Mond und Sterne",
+      "Scheinwerfer",
+      "Straßenlaternen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was ist die Sonne?",
+    "answers": [
+      "Ein Stern",
+      "Ein Planet",
+      "Ein Mond"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was ist Currywurst?",
+    "answers": [
+      "Wurst mit Currysauce",
+      "Wurst aus Curry",
+      "Eine indische Wurst"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Woraus besteht Kaffee?",
+    "answers": [
+      "Kaffeebohnen",
+      "Kakaobohnen",
+      "Teeblättern"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was ist ein Baguette?",
+    "answers": [
+      "Stangenweißbrot",
+      "Ein Keks",
+      "Eine Torte"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Welches Obst ist sauer?",
+    "answers": [
+      "Zitrone",
+      "Banane",
+      "Pfirsich"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was ist Mozzarella?",
+    "answers": [
+      "Käse",
+      "Wurst",
+      "Brot"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was ist ein Eintopf?",
+    "answers": [
+      "Gericht alles in einem Topf",
+      "Ein leerer Topf",
+      "Ein Getränk"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was braucht man zum Schlittschuhlaufen?",
+    "answers": [
+      "Schlittschuhe & Eis",
+      "Rollschuhe",
+      "Skier"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Wie viele Spieler hat eine Volleyballmannschaft?",
+    "answers": [
+      "6",
+      "11",
+      "2"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was ist 'Jogging'?",
+    "answers": [
+      "Laufen",
+      "Schwimmen",
+      "Schlafen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Wer war Franz Beckenbauer?",
+    "answers": [
+      "Fußballer (Kaiser)",
+      "Tennisspieler",
+      "Skifahrer"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was ist die Tour de France?",
+    "answers": [
+      "Radrennen",
+      "Autorennen",
+      "Laufwettbewerb"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Was wirft man beim Dart?",
+    "answers": [
+      "Pfeile",
+      "Bälle",
+      "Ringe"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Wer knuspert am Häuschen?",
+    "answers": [
+      "Die Hexe",
+      "Der Wolf",
+      "Der Bär"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HANSEL"
+  },
+  {
+    "text": "Womit markierte Hänsel den Weg?",
+    "answers": [
+      "Brotkrumen",
+      "Steine",
+      "Bonbons"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "GRIMM_HANSEL"
+  },
+  {
+    "text": "Was war das Häuschen?",
+    "answers": [
+      "Aus Lebkuchen",
+      "Aus Gold",
+      "Aus Stroh"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HANSEL"
+  },
+  {
+    "text": "Wer sperrte Hänsel in den Käfig?",
+    "answers": [
+      "Die Hexe",
+      "Gretel",
+      "Der Vater"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HANSEL"
+  },
+  {
+    "text": "Wie entkamen die Kinder?",
+    "answers": [
+      "Hexe in den Ofen gestoßen",
+      "Weggerannt",
+      "Versteckt"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HANSEL"
+  },
+  {
+    "text": "Wem bringt Rotkäppchen Kuchen?",
+    "answers": [
+      "Der Großmutter",
+      "Dem Wolf",
+      "Der Tante"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RED"
+  },
+  {
+    "text": "Was hat der Wolf gemacht?",
+    "answers": [
+      "Großmutter gefressen",
+      "Kuchen gegessen",
+      "Geschlafen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RED"
+  },
+  {
+    "text": "Wer rettet Rotkäppchen?",
+    "answers": [
+      "Der Jäger",
+      "Der Prinz",
+      "Der Müller"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RED"
+  },
+  {
+    "text": "Was füllte der Jäger in den Bauch des Wolfs?",
+    "answers": [
+      "Steine",
+      "Stroh",
+      "Holz"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RED"
+  },
+  {
+    "text": "Was fragte Rotkäppchen?",
+    "answers": [
+      "Warum hast du so große Ohren?",
+      "Wie spät ist es?",
+      "Wo ist der Weg?"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RED"
+  },
+  {
+    "text": "Wer ist die Schönste im ganzen Land?",
+    "answers": [
+      "Schneewittchen",
+      "Die Königin",
+      "Aschenputtel"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SNOW"
+  },
+  {
+    "text": "Wo wohnte Schneewittchen?",
+    "answers": [
+      "Hinter den 7 Bergen",
+      "Im Schloss",
+      "Im Wald"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SNOW"
+  },
+  {
+    "text": "Was bekam Schneewittchen von der Hexe?",
+    "answers": [
+      "Einen giftigen Apfel",
+      "Einen Kamm",
+      "Ein Kleid"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SNOW"
+  },
+  {
+    "text": "Wie viele Zwerge waren es?",
+    "answers": [
+      "7",
+      "5",
+      "10"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SNOW"
+  },
+  {
+    "text": "Wer weckte Schneewittchen?",
+    "answers": [
+      "Ein Prinz",
+      "Ein Zwerg",
+      "Der Jäger"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SNOW"
+  },
+  {
+    "text": "Was fiel der Prinzessin in den Brunnen?",
+    "answers": [
+      "Goldene Kugel",
+      "Ring",
+      "Krone"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_FROG"
+  },
+  {
+    "text": "Was wollte der Frosch?",
+    "answers": [
+      "Mit ihr essen & schlafen",
+      "Einen Kuss",
+      "Geld"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_FROG"
+  },
+  {
+    "text": "Was passierte, als sie ihn an die Wand warf?",
+    "answers": [
+      "Er wurde ein Prinz",
+      "Er starb",
+      "Er quakte"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_FROG"
+  },
+  {
+    "text": "Wer holte die Kugel herauf?",
+    "answers": [
+      "Der Frosch",
+      "Der Diener",
+      "Der Vater"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_FROG"
+  },
+  {
+    "text": "Versprechen muss man ...",
+    "answers": [
+      "... halten",
+      "... brechen",
+      "... vergessen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_FROG"
+  },
+  {
+    "text": "Wer hatte die Idee mit den Brotkrumen?",
+    "answers": [
+      "Hänsel",
+      "Gretel",
+      "Der Vater"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HANSEL"
+  },
+  {
+    "text": "Wie hieß der Ort im Wald?",
+    "answers": [
+      "Hexenwald",
+      "Zauberwald",
+      "Dunkelwald"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HANSEL"
+  },
+  {
+    "text": "Was machten die Kinder mit den Perlen/Edelsteinen?",
+    "answers": [
+      "Mit nach Hause nehmen",
+      "Wegwerfen",
+      "Essen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HANSEL"
+  },
+  {
+    "text": "Wer starb am Ende?",
+    "answers": [
+      "Die Hexe",
+      "Der Vater",
+      "Gretel"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HANSEL"
+  },
+  {
+    "text": "Was rief die Hexe?",
+    "answers": [
+      "Knusper, knusper, Knäuschen",
+      "Hallo Kinder",
+      "Kommt herein"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HANSEL"
+  },
+  {
+    "text": "Welche Farbe hatte die Kappe?",
+    "answers": [
+      "Rot",
+      "Blau",
+      "Grün"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RED"
+  },
+  {
+    "text": "Was sollte sie nicht tun?",
+    "answers": [
+      "Vom Weg abkommen",
+      "Singen",
+      "Rennen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RED"
+  },
+  {
+    "text": "Wer schnarchte laut?",
+    "answers": [
+      "Der Wolf",
+      "Die Oma",
+      "Der Jäger"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RED"
+  },
+  {
+    "text": "Womit wurden die Wackersteine genäht?",
+    "answers": [
+      "Nadel und Zwirn",
+      "Kleber",
+      "Tacker"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RED"
+  },
+  {
+    "text": "Wo wohnte die Großmutter?",
+    "answers": [
+      "Im Wald",
+      "In der Stadt",
+      "Auf dem Berg"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RED"
+  },
+  {
+    "text": "Spieglein, Spieglein an der ...",
+    "answers": [
+      "... Wand",
+      "... Hand",
+      "... Decke"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SNOW"
+  },
+  {
+    "text": "Wer sollte Schneewittchen töten?",
+    "answers": [
+      "Der Jäger",
+      "Der Prinz",
+      "Der König"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SNOW"
+  },
+  {
+    "text": "Was passierte mit dem Kamm?",
+    "answers": [
+      "War vergiftet",
+      "War golden",
+      "War zerbrochen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SNOW"
+  },
+  {
+    "text": "Worin lag Schneewittchen?",
+    "answers": [
+      "Glassarg",
+      "Holzsarg",
+      "Steinsarg"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SNOW"
+  },
+  {
+    "text": "Was musste die böse Königin am Ende tun?",
+    "answers": [
+      "In roten Schuhen tanzen",
+      "Weglaufen",
+      "Singen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SNOW"
+  },
+  {
+    "text": "Wo saß der Frosch?",
+    "answers": [
+      "Am Brunnenrand",
+      "Im Gras",
+      "Auf dem Baum"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_FROG"
+  },
+  {
+    "text": "Wer war 'Der treue Heinrich'?",
+    "answers": [
+      "Dieners des Prinzen",
+      "Der Vater",
+      "Ein Zwerg"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_FROG"
+  },
+  {
+    "text": "Was krachte am Wagen?",
+    "answers": [
+      "Eiserne Bande",
+      "Das Rad",
+      "Die Achse"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_FROG"
+  },
+  {
+    "text": "Königstochter, ...",
+    "answers": [
+      "... jüngste",
+      "... älteste",
+      "... schönste"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_FROG"
+  },
+  {
+    "text": "Was wollte der Frosch trinken?",
+    "answers": [
+      "Aus ihrem Becher",
+      "Wein",
+      "Wasser"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_FROG"
+  },
+  {
+    "text": "Was riefen die Tauben?",
+    "answers": [
+      "Rucke di guh, Blut ist im Schuh",
+      "Kikeriki",
+      "Hallo Prinz"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_CINDERELLA"
+  },
+  {
+    "text": "Was musste Aschenputtel sortieren?",
+    "answers": [
+      "Linsen",
+      "Erbsen & Bohnen",
+      "Steine"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_CINDERELLA"
+  },
+  {
+    "text": "Wo wuchs der Zweig?",
+    "answers": [
+      "Auf dem Grab der Mutter",
+      "Im Garten",
+      "Im Wald"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_CINDERELLA"
+  },
+  {
+    "text": "Welchen Schuh verlor sie?",
+    "answers": [
+      "Goldener Schuh",
+      "Gläserner Schuh",
+      "Lederner Schuh"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_CINDERELLA"
+  },
+  {
+    "text": "Wo versteckte sie sich vor dem Prinzen?",
+    "answers": [
+      "Im Taubenhaus / Birnbaum",
+      "Im Keller",
+      "Im Wald"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_CINDERELLA"
+  },
+  {
+    "text": "Wer half ihr beim Sortieren?",
+    "answers": [
+      "Die Tauben/Vögel",
+      "Mäuse",
+      "Die Fee"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_CINDERELLA"
+  },
+  {
+    "text": "Wie viele Stiefschwestern hatte sie?",
+    "answers": [
+      "2",
+      "3",
+      "1"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_CINDERELLA"
+  },
+  {
+    "text": "Was riefen die Tauben am Ende?",
+    "answers": [
+      "Kein Blut im Schuh",
+      "Sie ist die Rechte",
+      "Viel Glück"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_CINDERELLA"
+  },
+  {
+    "text": "Was taten die Schwestern, um in den Schuh zu passen?",
+    "answers": [
+      "Zehe/Ferse abschneiden",
+      "Socken ausziehen",
+      "Schuh weiten"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_CINDERELLA"
+  },
+  {
+    "text": "Wen heiratete sie?",
+    "answers": [
+      "Den Prinzen",
+      "Den Jäger",
+      "Den Koch"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_CINDERELLA"
+  },
+  {
+    "text": "Wie lange schlief Dornröschen?",
+    "answers": [
+      "100 Jahre",
+      "10 Jahre",
+      "1000 Jahre"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SLEEPING"
+  },
+  {
+    "text": "Woran stach sie sich?",
+    "answers": [
+      "Spindel",
+      "Nadel",
+      "Dorn"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SLEEPING"
+  },
+  {
+    "text": "Wie viele Feen waren eingeladen?",
+    "answers": [
+      "12",
+      "13",
+      "7"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SLEEPING"
+  },
+  {
+    "text": "Was wuchs um das Schloss?",
+    "answers": [
+      "Dornenhecke",
+      "Rosen",
+      "Efeu"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SLEEPING"
+  },
+  {
+    "text": "Wer weckte sie?",
+    "answers": [
+      "Der Prinz (Kuss)",
+      "Die Königin",
+      "Der Koch"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SLEEPING"
+  },
+  {
+    "text": "Was passierte mit dem Hofstaat?",
+    "answers": [
+      "Schliefen alle ein",
+      "Liefen weg",
+      "Feierten weiter"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SLEEPING"
+  },
+  {
+    "text": "Was wünschte die böse Fee?",
+    "answers": [
+      "Tod durch Spindel",
+      "Ewigen Schlaf",
+      "Armut"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SLEEPING"
+  },
+  {
+    "text": "Was machte die 12. Fee daraus?",
+    "answers": [
+      "100 Jahre Schlaf",
+      "Nichts",
+      "Wachte sofort auf"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SLEEPING"
+  },
+  {
+    "text": "Was passierte mit den Prinzen zuvor?",
+    "answers": [
+      "Blieben in der Hecke hängen",
+      "Kamen durch",
+      "Kehrten um"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SLEEPING"
+  },
+  {
+    "text": "Wie alt war sie beim Stich?",
+    "answers": [
+      "15",
+      "16",
+      "18"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_SLEEPING"
+  },
+  {
+    "text": "Was passiert, wenn Frau Holle Betten schüttelt?",
+    "answers": [
+      "Es schneit",
+      "Es regnet",
+      "Es donnert"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HOLLE"
+  },
+  {
+    "text": "Wodurch sprang die Goldmarie?",
+    "answers": [
+      "In den Brunnen",
+      "Aus dem Fenster",
+      "In den Fluss"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HOLLE"
+  },
+  {
+    "text": "Was rief das Brot im Ofen?",
+    "answers": [
+      "Zieh mich raus, ich verbrenne",
+      "Iss mich",
+      "Es ist warm"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HOLLE"
+  },
+  {
+    "text": "Was rief der Apfelbaum?",
+    "answers": [
+      "Schüttel mich",
+      "Pflück mich",
+      "Gieß mich"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HOLLE"
+  },
+  {
+    "text": "Was bekam die fleißige Schwester?",
+    "answers": [
+      "Goldregen",
+      "Pech",
+      "Silber"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HOLLE"
+  },
+  {
+    "text": "Was bekam die faule Schwester?",
+    "answers": [
+      "Pech",
+      "Gold",
+      "Asche"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HOLLE"
+  },
+  {
+    "text": "Was rief der Hahn bei der Heimkehr?",
+    "answers": [
+      "Kikeriki, unsere goldene Jungfrau ist wieder hie",
+      "Guten Morgen",
+      "Hallo"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HOLLE"
+  },
+  {
+    "text": "Was musste sie bei Frau Holle tun?",
+    "answers": [
+      "Betten machen",
+      "Kochen",
+      "Putzen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HOLLE"
+  },
+  {
+    "text": "Warum sprang sie in den Brunnen?",
+    "answers": [
+      "Spule verloren",
+      "Wollte baden",
+      "Wurde geschubst"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HOLLE"
+  },
+  {
+    "text": "Ging das Pech wieder ab?",
+    "answers": [
+      "Nein, Zeitlebens nicht",
+      "Ja, mit Seife",
+      "Nach einem Jahr"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_HOLLE"
+  },
+  {
+    "text": "Was sollte die Müllerstochter spinnen?",
+    "answers": [
+      "Stroh zu Gold",
+      "Wolle zu Seide",
+      "Flachs zu Leinen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RUMPEL"
+  },
+  {
+    "text": "Wer half ihr?",
+    "answers": [
+      "Ein Männchen",
+      "Eine Fee",
+      "Der König"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RUMPEL"
+  },
+  {
+    "text": "Was wollte das Männchen zuerst?",
+    "answers": [
+      "Halsband",
+      "Ring",
+      "Das Kind"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RUMPEL"
+  },
+  {
+    "text": "Was wollte es in der dritten Nacht?",
+    "answers": [
+      "Das erste Kind",
+      "Den Ring",
+      "Geld"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RUMPEL"
+  },
+  {
+    "text": "Wie hieß das Männchen?",
+    "answers": [
+      "Rumpelstilzchen",
+      "Kunz",
+      "Heinz"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RUMPEL"
+  },
+  {
+    "text": "Heute back ich, morgen brau ich, ...",
+    "answers": [
+      "... übermorgen hol ich der Königin ihr Kind",
+      "... und dann esse ich",
+      "... und dann geh ich"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RUMPEL"
+  },
+  {
+    "text": "Ach wie gut, dass niemand weiß, ...",
+    "answers": [
+      "... dass ich Rumpelstilzchen heiß",
+      "... wo ich wohn",
+      "... was ich kann"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RUMPEL"
+  },
+  {
+    "text": "Was passierte am Ende mit ihm?",
+    "answers": [
+      "Zerriss sich selbst",
+      "Lief weg",
+      "Wurde eingesperrt"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RUMPEL"
+  },
+  {
+    "text": "Wer hörte den Namen im Wald?",
+    "answers": [
+      "Ein Bote",
+      "Der König",
+      "Die Müllerin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RUMPEL"
+  },
+  {
+    "text": "Was gab sie in der zweiten Nacht?",
+    "answers": [
+      "Ihren Ring",
+      "Ihr Halsband",
+      "Ihre Schuhe"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_RUMPEL"
+  },
+  {
+    "text": "Wo versteckte sich das jüngste Geißlein?",
+    "answers": [
+      "Im Uhrenkasten",
+      "Unter dem Tisch",
+      "Im Bett"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_GOATS"
+  },
+  {
+    "text": "Was fraß der Wolf für eine hohe Stimme?",
+    "answers": [
+      "Kreide",
+      "Honig",
+      "Zucker"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_GOATS"
+  },
+  {
+    "text": "Was ließ sich der Wolf vom Bäcker geben?",
+    "answers": [
+      "Teig auf die Pfoten",
+      "Brot",
+      "Kuchen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_GOATS"
+  },
+  {
+    "text": "Was passierte mit dem Wolf?",
+    "answers": [
+      "Fiel in den Brunnen",
+      "Wurde erschossen",
+      "Lief weg"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_GOATS"
+  },
+  {
+    "text": "Womit füllte die Mutter den Bauch?",
+    "answers": [
+      "Wackersteine",
+      "Sand",
+      "Holz"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_GOATS"
+  },
+  {
+    "text": "Wie viele Geißlein fraß der Wolf?",
+    "answers": [
+      "6",
+      "7",
+      "5"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_GOATS"
+  },
+  {
+    "text": "Was sagte der Wolf, wer er sei?",
+    "answers": [
+      "Die Mutter",
+      "Der Vater",
+      "Der Onkel"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_GOATS"
+  },
+  {
+    "text": "Woran erkannten sie den Wolf zuerst?",
+    "answers": [
+      "Raue Stimme",
+      "Schwarze Pfote",
+      "Große Ohren"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_GOATS"
+  },
+  {
+    "text": "Wo schlief der Wolf ein?",
+    "answers": [
+      "Auf der Wiese",
+      "Im Haus",
+      "Im Wald"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_GOATS"
+  },
+  {
+    "text": "Was riefen die Geißlein am Ende?",
+    "answers": [
+      "Der Wolf ist tot",
+      "Juhuu",
+      "Danke Mama"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GRIMM_GOATS"
+  },
+  {
+    "text": "Wie heißt der männliche Schwein?",
+    "answers": [
+      "Eber",
+      "Bulle",
+      "Hahn"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welcher Baum wirft als Nadelbaum im Winter seine Nadeln ab?",
+    "answers": [
+      "Lärche",
+      "Fichte",
+      "Kiefer"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Wie nennt man das junge Schaf?",
+    "answers": [
+      "Lamm",
+      "Kitz",
+      "Ferkel"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Welches Tier ist das Wappentier von Berlin?",
+    "answers": [
+      "Bär",
+      "Adler",
+      "Löwe"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Zu welcher Pflanzenfamilie gehört die Kartoffel?",
+    "answers": [
+      "Nachtschattengewächse",
+      "Gräser",
+      "Hülsenfrüchte"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "NATURE"
+  },
+  {
+    "text": "Wer im Glashaus sitzt, ...",
+    "answers": [
+      "... soll nicht mit Steinen werfen",
+      "... hat es hell",
+      "... muss Fenster putzen"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Eulen nach ... tragen.",
+    "answers": [
+      "... Athen",
+      "... Rom",
+      "... Berlin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Was hänschen nicht lernt, ...",
+    "answers": [
+      "... lernt Hans nimmermehr",
+      "... lernt er später",
+      "... ist nicht wichtig"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Gut Ding will ...",
+    "answers": [
+      "... Weile haben",
+      "... Arbeit haben",
+      "... Geld haben"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Wo gehobelt wird, ...",
+    "answers": [
+      "... fallen Späne",
+      "... ist es glatt",
+      "... wird es laut"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "PROVERBS"
+  },
+  {
+    "text": "Wann wurde der Euro als Bargeld eingeführt?",
+    "answers": [
+      "2002",
+      "1999",
+      "2005"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wer war der erste Bundespräsident der BRD?",
+    "answers": [
+      "Theodor Heuss",
+      "Heinrich Lübke",
+      "Gustav Heinemann"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wann endete der 30-jährige Krieg?",
+    "answers": [
+      "1648",
+      "1750",
+      "1500"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wie hieß die Frau von Ludwig XVI.?",
+    "answers": [
+      "Marie Antoinette",
+      "Kaiserin Sissi",
+      "Maria Theresia"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Welches Jahr ist das 'Drei-Kaiser-Jahr'?",
+    "answers": [
+      "1888",
+      "1918",
+      "1871"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wie heißt die Hauptstadt von Thüringen?",
+    "answers": [
+      "Erfurt",
+      "Weimar",
+      "Jena"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "In welches Meer mündet der Rhein?",
+    "answers": [
+      "Nordsee",
+      "Ostsee",
+      "Mittelmeer"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Welcher ist der größte See Deutschlands (ganz)?",
+    "answers": [
+      "Müritz",
+      "Bodensee",
+      "Chiemsee"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wo liegt die Insel 'Mainau'?",
+    "answers": [
+      "Im Bodensee",
+      "In der Ostsee",
+      "Im Mittelmeer"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Welches Bundesland ist das kleinste (Fläche)?",
+    "answers": [
+      "Bremen",
+      "Saarland",
+      "Berlin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "GEOGRAPHY"
+  },
+  {
+    "text": "Wer komponierte die Oper 'Fidelio'?",
+    "answers": [
+      "Beethoven",
+      "Mozart",
+      "Verdi"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wie viele Saiten hat ein Cello?",
+    "answers": [
+      "4",
+      "6",
+      "5"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Aus welchem Land stammt die Band 'ABBA'?",
+    "answers": [
+      "Schweden",
+      "Norwegen",
+      "Dänemark"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer schrieb die Textdichtung zur 'Ode an die Freude'?",
+    "answers": [
+      "Schiller",
+      "Goethe",
+      "Heine"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Welches Instrument hat Pedale?",
+    "answers": [
+      "Harfe",
+      "Geige",
+      "Trompete"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer spielte 'Ekel Alfred'?",
+    "answers": [
+      "Heinz Schubert",
+      "Harald Juhnke",
+      "Eddi Arent"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wie heißt das Hausmeister-Paar im Tatort München?",
+    "answers": [
+      "Eibergen & Gies",
+      "Schimanski & Thanner",
+      "Batic & Leitmayr"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wer ermittelte in 'Der Kommissar'?",
+    "answers": [
+      "Erik Ode",
+      "Horst Tappert",
+      "Siegfried Lowitz"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wie hieß die Sprecherin der 'Tagesschau' (die Erste)?",
+    "answers": [
+      "Dagmar Berghoff",
+      "Ulrike von Möllendorff",
+      "Petra Gerster"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Welcher Schauspieler war auch Arzt?",
+    "answers": [
+      "Maria Furtwängler",
+      "Til Schweiger",
+      "Jan Josef Liefers"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wie heißt der größte Mond des Jupiter?",
+    "answers": [
+      "Ganymed",
+      "Titan",
+      "Europa"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Welches Sternbild sieht aus wie ein 'W'?",
+    "answers": [
+      "Kassiopeia",
+      "Großer Wagen",
+      "Orion"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Wie lange braucht das Licht von der Sonne zur Erde?",
+    "answers": [
+      "ca. 8 Minuten",
+      "1 Sekunde",
+      "1 Stunde"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was ist ein Lichtjahr?",
+    "answers": [
+      "Eine Entfernung",
+      "Eine Zeit",
+      "Eine Geschwindigkeit"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Welcher Planet hat die 'Große Rote Fleck'?",
+    "answers": [
+      "Jupiter",
+      "Mars",
+      "Saturn"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPACE"
+  },
+  {
+    "text": "Was ist 'Vitello Tonnato'?",
+    "answers": [
+      "Kalb mit Thunfischsauce",
+      "Schweinefleisch",
+      "Nudeln"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Aus welchem Tier besteht echter Kaviar?",
+    "answers": [
+      "Stör",
+      "Lachs",
+      "Hai"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Welches Vitamin bildet der Körper durch Sonne?",
+    "answers": [
+      "Vitamin D",
+      "Vitamin C",
+      "Vitamin A"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was ist 'Pumpernickel'?",
+    "answers": [
+      "Ein Schwarzbrot",
+      "Ein Keks",
+      "Ein Wurst"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Was ist eine 'Bouillabaisse'?",
+    "answers": [
+      "Französische Fischsuppe",
+      "Ein Braten",
+      "Ein Dessert"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "FOOD"
+  },
+  {
+    "text": "Wie nennt man den Null-Punkt beim Tennis?",
+    "answers": [
+      "Love",
+      "Zero",
+      "Null"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Welche Farbe hat das Trikot des Führenden beim Giro d'Italia?",
+    "answers": [
+      "Rosa",
+      "Gelb",
+      "Grün"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Wie viele Figuren hat ein Spieler beim Schach?",
+    "answers": [
+      "16",
+      "32",
+      "10"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Wo fanden die Olympischen Spiele 1972 statt?",
+    "answers": [
+      "München",
+      "Berlin",
+      "Rom"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  },
+  {
+    "text": "Wer war der erste deutsche Formel-1-Weltmeister?",
+    "answers": [
+      "Michael Schumacher",
+      "Sebastian Vettel",
+      "Nico Rosberg"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SPORT"
+  }
+]

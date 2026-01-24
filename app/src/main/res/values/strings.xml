@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Senioren Quiz</string>
+    <string name="question_progress">Frage %1$d von %2$d</string>
+    <string name="answer_correct">Richtig!</string>
+    <string name="answer_wrong">Leider falsch</string>
+    <string name="correct_answer_info">Richtig wäre: %s</string>
+    <string name="category_mix">Bunte Mischung</string>
+    <string name="category_nature">Natur &amp; Tiere</string>
+    <string name="category_proverbs">Sprichwörter</string>
+    <string name="category_history">Geschichte</string>
+    <string name="category_geography">Geografie</string>
+    <string name="category_music">Musik &amp; Lieder</string>
+    <string name="category_tv">Filme &amp; Fernsehen</string>
+    <string name="category_space">Weltall &amp; Technik</string>
+    <string name="category_food">Essen &amp; Trinken</string>
+    <string name="category_sport">Sport &amp; Hobby</string>
+    <string name="category_fairy_mix">Märchen Mix</string>
+    <string name="category_hansel">Hänsel &amp; Gretel</string>
+    <string name="category_red">Rotkäppchen</string>
+    <string name="category_snow">Schneewittchen</string>
+    <string name="category_frog">Froschkönig</string>
+    <string name="category_cinderella">Aschenputtel</string>
+    <string name="category_sleeping">Dornröschen</string>
+    <string name="category_holle">Frau Holle</string>
+    <string name="category_rumpel">Rumpelstilzchen</string>
+    <string name="category_goats">Wolf &amp; 7 Geißlein</string>
+    <string name="default_quiz_title">Quiz</string>
+</resources>

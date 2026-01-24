@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/rootLayout"
+    android:background="#1F1B24"
+    tools:context=".QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center_horizontal">
+
+        <!-- Category Header -->
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kategorie"
+            android:textColor="#90A4AE"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Progress and Joker Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/tvProgress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Frage 1 von 10"
+                android:textColor="#B0BEC5"
+                android:textSize="28sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnJoker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50:50 Joker"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="16dp"
+                app:icon="@android:drawable/ic_menu_help"
+                app:iconTint="#FFFFFF"
+                app:backgroundTint="#FF9800"
+                app:cornerRadius="24dp" />
+        </LinearLayout>
+
+        <!-- Question Text -->
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="200dp"
+            android:text="Hier steht die Frage?"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Answers layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="32dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAnswer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Antwort A"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:minHeight="100dp"
+                android:layout_marginBottom="40dp"
+                android:textAllCaps="false"
+                app:backgroundTint="#90CAF9"
+                app:cornerRadius="50dp"
+                app:elevation="6dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAnswer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Antwort B"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:minHeight="100dp"
+                android:layout_marginBottom="40dp"
+                android:textAllCaps="false"
+                app:backgroundTint="#90CAF9"
+                app:cornerRadius="50dp"
+                app:elevation="6dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAnswer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Antwort C"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:minHeight="100dp"
+                android:layout_marginBottom="40dp"
+                android:textAllCaps="false"
+                app:backgroundTint="#90CAF9"
+                app:cornerRadius="50dp"
+                app:elevation="6dp" />
+        </LinearLayout>
+
+        <!-- Feedback and Navigation -->
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvExplanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FFCC80"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_marginBottom="24dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weiter"
+            android:textColor="#000000"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:minHeight="100dp"
+            android:visibility="invisible"
+            app:backgroundTint="#FFFFFF"
+            app:cornerRadius="50dp" />
+
+    </LinearLayout>
+</ScrollView>

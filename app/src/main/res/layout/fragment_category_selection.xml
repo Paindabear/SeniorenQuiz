@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#1F1B24">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="32dp"
+        android:paddingTop="32dp"
+        android:paddingRight="32dp"
+        android:paddingBottom="48dp">
+
+        <!-- Category Buttons (Copied from Activity Main) -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMixed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="120dp"
+            android:text="Bunte Mischung"
+            android:textAllCaps="false"
+            android:textColor="#3E2723"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_mixed"
+            app:iconSize="56dp"
+            app:iconTint="#3E2723"
+            app:backgroundTint="#FFCC80"
+            app:cornerRadius="50dp"
+            app:elevation="12dp"
+            app:strokeColor="#E65100"
+            app:strokeWidth="4dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="100dp"
+            android:text="Natur &amp; Tiere"
+            android:textAllCaps="false"
+            android:textColor="#1B5E20"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_nature"
+            app:iconSize="48dp"
+            app:iconTint="#1B5E20"
+            app:backgroundTint="#C8E6C9"
+            app:cornerRadius="50dp"
+            app:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnProverbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="100dp"
+            android:text="Sprichwörter"
+            android:textAllCaps="false"
+            android:textColor="#0D47A1"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_proverbs"
+            app:iconSize="48dp"
+            app:iconTint="#0D47A1"
+            app:backgroundTint="#BBDEFB"
+            app:cornerRadius="50dp"
+            app:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="100dp"
+            android:text="Geschichte"
+            android:textAllCaps="false"
+            android:textColor="#3E2723"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_history"
+            app:iconSize="48dp"
+            app:iconTint="#3E2723"
+            app:backgroundTint="#D7CCC8"
+            app:cornerRadius="50dp"
+            app:elevation="8dp" />
+            
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGeography"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="100dp"
+            android:text="Geografie"
+            android:textAllCaps="false"
+            android:textColor="#004D40"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_geography"
+            app:iconSize="48dp"
+            app:iconTint="#004D40"
+            app:backgroundTint="#B2DFDB"
+            app:cornerRadius="50dp"
+            app:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="100dp"
+            android:text="Musik &amp; Lieder"
+            android:textAllCaps="false"
+            android:textColor="#4A148C"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_music"
+            app:iconSize="48dp"
+            app:iconTint="#4A148C"
+            app:backgroundTint="#E1BEE7"
+            app:cornerRadius="50dp"
+            app:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="100dp"
+            android:text="Filme &amp; Fernsehen"
+            android:textAllCaps="false"
+            android:textColor="#B71C1C"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_tv"
+            app:iconSize="48dp"
+            app:iconTint="#B71C1C"
+            app:backgroundTint="#FFCDD2"
+            app:cornerRadius="50dp"
+            app:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSpace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="100dp"
+            android:text="Weltall &amp; Technik"
+            android:textAllCaps="false"
+            android:textColor="#1A237E"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_space"
+            app:iconSize="48dp"
+            app:iconTint="#1A237E"
+            app:backgroundTint="#C5CAE9"
+            app:cornerRadius="50dp"
+            app:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="100dp"
+            android:text="Essen &amp; Trinken"
+            android:textAllCaps="false"
+            android:textColor="#E65100"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_food"
+            app:iconSize="48dp"
+            app:iconTint="#E65100"
+            app:backgroundTint="#FFE0B2"
+            app:cornerRadius="50dp"
+            app:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="100dp"
+            android:text="Sport &amp; Hobby"
+            android:textAllCaps="false"
+            android:textColor="#33691E"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_sport"
+            app:iconSize="48dp"
+            app:iconTint="#33691E"
+            app:backgroundTint="#DCEDC8"
+            app:cornerRadius="50dp"
+            app:elevation="8dp" />
+
+    </LinearLayout>
+</ScrollView>
