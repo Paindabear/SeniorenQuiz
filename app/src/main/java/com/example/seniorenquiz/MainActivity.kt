@@ -72,32 +72,55 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun downloadAndInstallApk(apkUrl: String) {
-        Toast.makeText(this, "Lade herunter…", Toast.LENGTH_SHORT).show()
+        // Dialog erstellen
+        val dialogView = layoutInflater.inflate(R.layout.dialog_update_progress, null)
+        val progressBar = dialogView.findViewById<android.widget.ProgressBar>(R.id.progressBar)
+        val tvPercent = dialogView.findViewById<android.widget.TextView>(R.id.tvProgressPercent)
+
+        val dialog = AlertDialog.Builder(this)
+            .setTitle("Update wird heruntergeladen")
+            .setView(dialogView)
+            .setCancelable(false) // Nicht abbrechbar durch Klick daneben
+            .create()
+        
+        dialog.show()
+
         Thread {
             try {
-                var bytes = downloadWithHttp(apkUrl)
-                // Google Drive: oft HTML "Virus-Scan"-Seite bei größeren Dateien – mit confirm=yes erneut versuchen
-                if (apkUrl.contains("drive.google.com") && bytes != null && bytes.size < 100_000 && String(bytes, Charsets.UTF_8).trimStart().startsWith("<")) {
-                    val retryUrl = if (apkUrl.contains("?")) "$apkUrl&confirm=yes" else "$apkUrl?confirm=yes"
-                    bytes = downloadWithHttp(retryUrl)
+                // Download mit Progress Callback
+                var bytes = downloadWithHttp(apkUrl) { progress ->
+                    runOnUiThread {
+                        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+                            progressBar.setProgress(progress, true)
+                        } else {
+                            progressBar.progress = progress
+                        }
+                        tvPercent.text = "$progress%"
+                    }
                 }
+
                 if (bytes != null && bytes.isNotEmpty()) {
                     val file = File(filesDir, "update.apk")
                     file.writeBytes(bytes)
-                    runOnUiThread { installApk(file) }
+                    
+                    runOnUiThread { 
+                        dialog.dismiss()
+                        installApk(file) 
+                    }
                 } else {
-                    throw Exception("Leere Antwort")
+                    throw Exception("Leerer Download")
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
                 runOnUiThread {
-                    Toast.makeText(this, "Download fehlgeschlagen", Toast.LENGTH_LONG).show()
+                    dialog.dismiss()
+                    Toast.makeText(this, "Fehler beim Update: ${e.message}", Toast.LENGTH_LONG).show()
                 }
             }
         }.start()
     }
 
-    private fun downloadWithHttp(urlString: String): ByteArray? {
+    private fun downloadWithHttp(urlString: String, onProgress: (Int) -> Unit): ByteArray? {
         val url = URL(urlString)
         (url.openConnection() as? HttpURLConnection)?.run {
             try {
@@ -105,11 +128,24 @@ class MainActivity : AppCompatActivity() {
                 connectTimeout = 30_000
                 readTimeout = 60_000
                 instanceFollowRedirects = true
+                
+                val totalSize = contentLength
+                
                 inputStream.use { input ->
                     ByteArrayOutputStream().use { output ->
                         val buffer = ByteArray(8192)
-                        var n: Int
-                        while (input.read(buffer).also { n = it } != -1) output.write(buffer, 0, n)
+                        var bytesRead: Int
+                        var totalRead = 0L
+                        
+                        while (input.read(buffer).also { bytesRead = it } != -1) {
+                            output.write(buffer, 0, bytesRead)
+                            totalRead += bytesRead
+                            
+                            if (totalSize > 0) {
+                                val percent = (totalRead * 100 / totalSize).toInt()
+                                onProgress(percent)
+                            }
+                        }
                         return output.toByteArray()
                     }
                 }
@@ -130,7 +166,8 @@ class MainActivity : AppCompatActivity() {
             }
             startActivity(intent)
         } catch (e: Exception) {
-            Toast.makeText(this, "Installation fehlgeschlagen", Toast.LENGTH_LONG).show()
+            e.printStackTrace()
+            Toast.makeText(this, "Install-Fehler: ${e.message}", Toast.LENGTH_LONG).show()
         }
     }
 
