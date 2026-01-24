@@ -1,26 +1,506 @@
 [
     {
-        "text": "Was ist auf diesem Bild zu sehen?",
+        "text": "Welches berühmte Berliner Tor sehen Sie hier?",
         "answers": [
-            "Ein Apfel",
-            "Eine Birne",
-            "Eine Banane",
-            "Eine Kirsche"
+            "Brandenburger Tor",
+            "Lübecker Tor",
+            "Siegestor",
+            "Isartor"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "brandenburger_tor.jpg"
+    },
+    {
+        "text": "Wie heißt diese gotische Kathedrale am Rhein?",
+        "answers": [
+            "Kölner Dom",
+            "Speyerer Dom",
+            "Ulmer Münster",
+            "Frauenkirche"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "koelner_dom.jpg"
+    },
+    {
+        "text": "Welches Märchenschloss in Bayern ist hier abgebildet?",
+        "answers": [
+            "Schloss Neuschwanstein",
+            "Schloss Sanssouci",
+            "Schloss Heidelberg",
+            "Burg Hohenzollern"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "neuschwanstein.jpg"
+    },
+    {
+        "text": "In welcher Stadt steht dieser berühmte Turm?",
+        "answers": [
+            "Paris",
+            "Berlin",
+            "London",
+            "Rom"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "GEOGRAPHY",
+        "imagePath": "eiffelturm.jpg"
+    },
+    {
+        "text": "Wo befindet sich dieser schiefe Turm?",
+        "answers": [
+            "Pisa",
+            "Venedig",
+            "Rom",
+            "Florenz"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "GEOGRAPHY",
+        "imagePath": "pisa.jpg"
+    },
+    {
+        "text": "Zu welcher Stadt gehört das Holstentor?",
+        "answers": [
+            "Lübeck",
+            "Hamburg",
+            "Bremen",
+            "Rostock"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "GEOGRAPHY",
+        "imagePath": "holstentor.jpg"
+    },
+    {
+        "text": "Wie heißt dieses römische Stadttor in Trier?",
+        "answers": [
+            "Porta Nigra",
+            "Porta Westfalica",
+            "Goldenes Tor",
+            "Hadrianstor"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "porta_nigra.jpg"
+    },
+    {
+        "text": "Welches Opernhaus sehen Sie hier?",
+        "answers": [
+            "Semperoper",
+            "Staatsoper",
+            "Elbphilharmonie",
+            "Festspielhaus"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "MUSIC",
+        "imagePath": "semperoper.jpg"
+    },
+    {
+        "text": "Was für ein Telefon ist das?",
+        "answers": [
+            "Wählscheibentelefon",
+            "Tastentelefon",
+            "Smartphone",
+            "Funktelefon"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "waehlscheibentelefon.jpg"
+    },
+    {
+        "text": "Womit wurden hier Kaffeebohnen zerkleinert?",
+        "answers": [
+            "Kaffeemühle",
+            "Mörser",
+            "Reibe",
+            "Mixer"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "kaffeemuehle.jpg"
+    },
+    {
+        "text": "Welches Gerät zum Schreiben ist das?",
+        "answers": [
+            "Schreibmaschine",
+            "Drucker",
+            "Fernschreiber",
+            "Laptop"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "schreibmaschine.jpg"
+    },
+    {
+        "text": "Womit wurden Schallplatten abgespielt?",
+        "answers": [
+            "Plattenspieler",
+            "CD-Player",
+            "Tonbandgerät",
+            "Grammophon"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "MUSIC",
+        "imagePath": "plattenspieler.jpg"
+    },
+    {
+        "text": "Was ist das für ein Gerät?",
+        "answers": [
+            "Röhrenfernseher",
+            "Mikrowelle",
+            "Radio",
+            "Computer"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "TV",
+        "imagePath": "roehrenfernseher.jpg"
+    },
+    {
+        "text": "Womit wurde Wolle gesponnen?",
+        "answers": [
+            "Spinnrad",
+            "Webstuhl",
+            "Haspel",
+            "Nadel"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "spinnrad.jpg"
+    },
+    {
+        "text": "Welches Haushaltsgerät ist das?",
+        "answers": [
+            "Nähmaschine",
+            "Mangeln",
+            "Bügeleisen",
+            "Webstuhl"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "naehmaschine.jpg"
+    },
+    {
+        "text": "Welches Gerät spielte Kassetten ab?",
+        "answers": [
+            "Kassettenrekorder",
+            "CD-Player",
+            "MP3-Player",
+            "Plattenspieler"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "MUSIC",
+        "imagePath": "kassettenrekorder.jpg"
+    },
+    {
+        "text": "Welcher Vogel ist hier zu sehen?",
+        "answers": [
+            "Eichelhäher",
+            "Specht",
+            "Elster",
+            "Spatz"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
-        "imagePath": "apple.jpg"
+        "imagePath": "eichelhaeher.jpg"
     },
     {
-        "text": "Welches Tier ist das?",
+        "text": "Wie heißt dieser Vogel mit der roten Brust?",
         "answers": [
-            "Hund",
-            "Katze",
-            "Maus",
-            "Elefant"
+            "Rotkehlchen",
+            "Dompfaff",
+            "Fink",
+            "Meise"
         ],
-        "correctAnswerIndex": 1,
+        "correctAnswerIndex": 0,
         "category": "NATURE",
-        "imagePath": "cat.jpg"
+        "imagePath": "rotkehlchen.jpg"
+    },
+    {
+        "text": "Welcher schwarze Vogel ist das?",
+        "answers": [
+            "Amsel",
+            "Rabe",
+            "Krähe",
+            "Star"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "NATURE",
+        "imagePath": "amsel.jpg"
+    },
+    {
+        "text": "Welche Meisenart ist das?",
+        "answers": [
+            "Blaumeise",
+            "Kohlmeise",
+            "Haubenmeise",
+            "Weidenmeise"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "NATURE",
+        "imagePath": "blaumeise.jpg"
+    },
+    {
+        "text": "Von welchem Baum stammt diese Frucht?",
+        "answers": [
+            "Kastanie",
+            "Eiche",
+            "Buche",
+            "Ahorn"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "NATURE",
+        "imagePath": "kastanie.jpg"
+    },
+    {
+        "text": "Welches Blatt ist das?",
+        "answers": [
+            "Eiche",
+            "Ahorn",
+            "Linde",
+            "Birke"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "NATURE",
+        "imagePath": "eiche.jpg"
+    },
+    {
+        "text": "Zu welchem Baum gehört dieses Blatt?",
+        "answers": [
+            "Ahorn",
+            "Platane",
+            "Kastanie",
+            "Esche"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "NATURE",
+        "imagePath": "ahorn.jpg"
+    },
+    {
+        "text": "Welcher Baum hat eine weiße Rinde?",
+        "answers": [
+            "Birke",
+            "Pappel",
+            "Erle",
+            "Buche"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "NATURE",
+        "imagePath": "birke.jpg"
+    },
+    {
+        "text": "Wie heißt diese Alpenblume?",
+        "answers": [
+            "Edelweiß",
+            "Enzian",
+            "Alpenrose",
+            "Veilchen"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "NATURE",
+        "imagePath": "edelweiss.jpg"
+    },
+    {
+        "text": "Wie heißt diese rote Blume?",
+        "answers": [
+            "Mohnblume",
+            "Rose",
+            "Nelke",
+            "Tulpe"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "NATURE",
+        "imagePath": "mohnblume.jpg"
+    },
+    {
+        "text": "Wie heißt diese blaue Feldblume?",
+        "answers": [
+            "Kornblume",
+            "Wegwarte",
+            "Vergissmeinnicht",
+            "Glockenblume"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "NATURE",
+        "imagePath": "kornblume.jpg"
+    },
+    {
+        "text": "Welcher Pilz ist das (giftig)?",
+        "answers": [
+            "Fliegenpilz",
+            "Steinpilz",
+            "Champignon",
+            "Pfifferling"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "NATURE",
+        "imagePath": "fliegenpilz.jpg"
+    },
+    {
+        "text": "Welcher beliebte Speisepilz ist hier zu sehen?",
+        "answers": [
+            "Steinpilz",
+            "Maronenröhrling",
+            "Birkenpilz",
+            "Rotkappe"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "NATURE",
+        "imagePath": "steinpilz.jpg"
+    },
+    {
+        "text": "Wie heißt dieser gelbe Speisepilz?",
+        "answers": [
+            "Pfifferling",
+            "Champignon",
+            "Trüffel",
+            "Hallimasch"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "NATURE",
+        "imagePath": "pfifferling.jpg"
+    },
+    {
+        "text": "Wer war der erste Bundeskanzler der BRD?",
+        "answers": [
+            "Konrad Adenauer",
+            "Ludwig Erhard",
+            "Willy Brandt",
+            "Helmut Schmidt"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "adenauer.jpg"
+    },
+    {
+        "text": "Welcher Kanzler erhielt den Friedensnobelpreis?",
+        "answers": [
+            "Willy Brandt",
+            "Helmut Kohl",
+            "Gerhard Schröder",
+            "Kurt Georg Kiesinger"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "brandt.jpg"
+    },
+    {
+        "text": "Welche Schauspielerin spielte 'Sissi'?",
+        "answers": [
+            "Romy Schneider",
+            "Marlene Dietrich",
+            "Hildegard Knef",
+            "Uschi Glas"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "TV",
+        "imagePath": "romy_schneider.jpg"
+    },
+    {
+        "text": "Welcher Schauspieler spielte in 'Die Feuerzangenbowle'?",
+        "answers": [
+            "Heinz Rühmann",
+            "Hans Albers",
+            "Gert Fröbe",
+            "Curd Jürgens"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "TV",
+        "imagePath": "heinz_ruehmann.jpg"
+    },
+    {
+        "text": "Wer sang 'Für mich soll's rote Rosen regnen'?",
+        "answers": [
+            "Hildegard Knef",
+            "Zarah Leander",
+            "Marlene Dietrich",
+            "Lale Andersen"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "MUSIC",
+        "imagePath": "hildegard_knef.jpg"
+    },
+    {
+        "text": "Wer sang 'Lili Marleen'?",
+        "answers": [
+            "Marlene Dietrich",
+            "Hildegard Knef",
+            "Zarah Leander",
+            "Caterina Valente"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "MUSIC",
+        "imagePath": "marlene_dietrich.jpg"
+    },
+    {
+        "text": "Wer sang 'Ganz in Weiß'?",
+        "answers": [
+            "Roy Black",
+            "Udo Jürgens",
+            "Rex Gildo",
+            "Peter Alexander"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "MUSIC",
+        "imagePath": "roy_black.jpg"
+    },
+    {
+        "text": "Wer ist dieser CDU-Politiker?",
+        "answers": [
+            "Friedrich Merz",
+            "Armin Laschet",
+            "Jens Spahn",
+            "Helmut Kohl"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "merz.jpg"
+    },
+    {
+        "text": "Wer ist dieser bayerische Ministerpräsident?",
+        "answers": [
+            "Markus Söder",
+            "Edmund Stoiber",
+            "Horst Seehofer",
+            "Franz Josef Strauß"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "soeder.jpg"
+    },
+    {
+        "text": "Wer ist der aktuelle Bundeskanzler (SPD)?",
+        "answers": [
+            "Olaf Scholz",
+            "Gerhard Schröder",
+            "Martin Schulz",
+            "Sigmar Gabriel"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "scholz.jpg"
+    },
+    {
+        "text": "Wer ist dieser Grünen-Politiker und Wirtschaftsminister?",
+        "answers": [
+            "Robert Habeck",
+            "Joschka Fischer",
+            "Cem Özdemir",
+            "Jürgen Trittin"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "habeck.jpg"
+    },
+    {
+        "text": "Wer ist die Präsidentin der EU-Kommission?",
+        "answers": [
+            "Ursula von der Leyen",
+            "Angela Merkel",
+            "Annegret Kramp-Karrenbauer",
+            "Christine Lagarde"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "vonderleyen.jpg"
     }
 ]
