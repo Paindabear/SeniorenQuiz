@@ -1,4 +1,4 @@
-# Senioren Quiz app
+# Senioren Quiz App
 
 Eine barrierefreie, seniorengerechte Quiz-App für Android, entwickelt, um das Gedächtnis zu trainieren und Freude zu bereiten.
 
@@ -8,7 +8,7 @@ Eine barrierefreie, seniorengerechte Quiz-App für Android, entwickelt, um das G
 *   **Optimiert für Senioren**: Extra große Schriften, Buttons und Icons für optimale Lesbarkeit auf Tablets und Smartphones.
 *   **Stressfreie Bedienung**: Kein Zeitlimit für die Beantwortung der Fragen.
 *   **Screen-On Feature**: Der Bildschirm bleibt während des gesamten Quiz aktiv – kein nerviges Entsperren nötig.
-*   **Einfache Navigation**: Klare Struktur mit Bottom-Navigation zum Wechseln zwischen den Bereichen.
+*   **Einfache Navigation**: Klare Struktur mit Bottom-Navigation zum Wechseln zwischen den Bereichen "Quiz", "Märchen", "Bilder" und "Audio".
 
 ### Interaktives Feedback
 *   **Akustisch**: Unterschiedliche Töne für richtige (hoch) und falsche (tief) Antworten.
@@ -17,56 +17,52 @@ Eine barrierefreie, seniorengerechte Quiz-App für Android, entwickelt, um das G
 *   **Lerneffekt**: Bei falscher Antwort wird die korrekte Lösung direkt angezeigt.
 
 ### Inhalte & Spielmodi
-*   **Klassik Quiz**:
-    *   9 Kategorien: Natur & Tiere, Sprichwörter, Geschichte, Geografie, Musik & Lieder, Filme & Fernsehen, Weltall & Technik, Essen & Trinken, Sport & Hobby.
-    *   "Bunte Mischung" für einen Mix aus allen Bereichen.
-    *   Über **450 Fragen**, von leichten Erinnerungsfragen bis zu kniffligeren Wissensfragen.
-*   **Märchen Modus**:
-    *   Spezielle Fragen zu den beliebtesten Grimms Märchen.
-    *   Kategorien: Hänsel & Gretel, Rotkäppchen, Schneewittchen, Froschkönig, Aschenputtel, Dornröschen, Frau Holle, Rumpelstilzchen, Wolf & 7 Geißlein.
+
+#### 1. Klassik Quiz (Text)
+*   **9 Kategorien**: Natur & Tiere, Sprichwörter, Geschichte, Geografie, Musik & Lieder, Filme & Fernsehen, Weltall & Technik, Essen & Trinken, Sport & Hobby.
+*   **Bunte Mischung**: Ein Mix aus allen Bereichen.
+*   **Umfang**: Hunderte Fragen von leicht bis knifflig, optimiert durch Deduplizierung.
+
+#### 2. Märchen Modus
+*   Spezielle Fragen zu den beliebtesten Grimms Märchen.
+*   Kategorien: Hänsel & Gretel, Rotkäppchen, Schneewittchen, Froschkönig, Aschenputtel, Dornröschen, Frau Holle, Rumpelstilzchen, Wolf & 7 Geißlein.
+
+#### 3. Bilder-Quiz (NEU in v1.3)
+*   Fragen mit visueller Unterstützung.
+*   Erkennen von Tieren, Objekten oder Sehenswürdigkeiten anhand von Bildern.
+
+#### 4. Audio-Quiz (NEU in v1.3)
+*   Fragen mit hörbaren Inhalten.
+*   Erkennen von Instrumenten, Stimmen berühmter Persönlichkeiten oder Geräuschen.
 
 ## Tech Stack
 
 *   **Sprache**: Kotlin
-*   **Architektur**: Single Activity mit Fragments (`MainActivity` hostet `CategorySelectionFragment` & `FairyTaleFragment`).
+*   **Architektur**: MVVM (Model-View-ViewModel) mit Single Activity und Fragmenten.
 *   **UI**:
-    *   Android XML Layouts
-    *   **Material Design 3**: `MaterialButton`, `BottomNavigationView`
-    *   Vector Drawables für skalierbare Icons.
-*   **Media & Animation**:
-    *   `ToneGenerator` für ressourcensparendes Audio-Feedback.
-    *   `ObjectAnimator` (`ArgbEvaluator`) für flüssige Farbübergänge.
-    *   `AlphaAnimation` für visuelle Hinweise (blinkender Weiter-Button).
-*   **Build System**: Gradle mit Kotlin DSL (`build.gradle.kts`).
+    *   Android XML Layouts, Material Design 3.
+    *   Responsive Layouts für verschiedene Displaygrößen.
+*   **Medien**: `MediaPlayer` für Audios, `ImageView` für Bilder, `ToneGenerator` für Feedback.
+*   **Daten**:
+    *   Trennung der Datenquellen in `questions.json` (Text), `images.json` (Bilder) und `audio.json` (Audio).
+    *   Dynamisches Laden der Fragen.
 
-## Fragen-Update (questions.json)
+## Update-System
 
-Die App lädt beim Start per Internet `questions.json` von GitHub (Raw-Link) und speichert sie lokal. `QuizRepository` nutzt zuerst die lokale Datei, sonst die in den Assets. So kannst du neue Fragen hinzufügen, ohne eine neue APK zu bauen.
+Die App verfügt über einen integrierten Updater:
+1.  Prüft beim Start `version.json` auf GitHub.
+2.  Bei neuerer Version (höherer `versionCode`) wird ein **vollständiger In-App-Download** der APK angeboten.
+3.  Zeigt einen Fortschrittsbalken während des Downloads.
+4.  Installiert die APK automatisch (erfordert Berechtigung für unbekannte Quellen ab Android 8+).
 
-- **URL** (in `QuizData.kt` anpassbar): `https://raw.githubusercontent.com/Petlus/SeniorenQuiz/master/app/src/main/assets/questions.json`  
-- Wenn du `questions.json` im Repo-Root ablegst: `.../master/questions.json` eintragen.
+## Fragen-Update
 
-## In-App-Updater
-
-Beim Start prüft die App `version.json` im Repo. Ist `versionCode` dort höher als in der installierten APK, erscheint ein Dialog „Update laden“.
-
-**APK auf Google Drive (dein Setup):** Die APK liegt z.B. unter  
-`https://drive.google.com/file/d/1CmudCdhmEswmfcjeL71mLOTLmYe6W6rr/view?usp=drive_link`.  
-Für `apkUrl` in `version.json` den **Direkt-Download-Link** verwenden:
-```
-https://drive.google.com/uc?export=download&id=1CmudCdhmEswmfcjeL71mLOTLmYe6W6rr
-```
-(Die Datei-ID `1CmudCdhmEswmfcjeL71mLOTLmYe6W6rr` steht im normalen Drive-Link: `.../d/DATEI_ID/...`.)
-
-1. **version.json** im Repo-Root anlegen mit `versionCode` und `apkUrl` (Drive-Direktlink oder GitHub-Release-URL).
-2. Bei neuer Version: `versionCode` in `version.json` erhöhen und die APK in dem Drive-Link **ersetzen** (gleiche Datei-ID) – oder neue Datei hochladen und `apkUrl` mit der neuen ID anpassen.
-3. Nutzerin: „Update laden“ tippen; ggf. einmalig „Unbekannte Apps“ für diese App erlauben (Android 8+).
-
-Beispiel-Vorlage: `version.json.example` (dort ist bereits dein Drive-Link eingetragen).
+Textfragen können unabhängig von App-Updates aktualisiert werden:
+*   Die App lädt `questions.json` beim Start im Hintergrund.
+*   Neue Fragen sind beim nächsten Start sofort verfügbar.
 
 ## Installation
 
-1.  APK (`app-debug.apk`) auf das Android-Gerät übertragen.
-2.  Dateimanager öffnen und APK auswählen.
-3.  Ggf. "Installation aus unbekannten Quellen" zulassen.
-4.  App starten und losrätseln!
+1.  Lade die aktuelle `Seniorenquiz.apk` herunter.
+2.  Installiere sie auf dem Android-Gerät (Dateimanager -> APK antippen).
+3.  Viel Spaß beim Rätseln!
