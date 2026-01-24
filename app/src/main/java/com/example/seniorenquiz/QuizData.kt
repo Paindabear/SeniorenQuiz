@@ -73,6 +73,13 @@ object QuizRepository {
                 // Validieren: muss als JSON-Array starten
                 if (jsonString.startsWith("[")) {
                     val file = File(context.filesDir, LOCAL_QUESTIONS_FILE)
+                    
+                    // Prüfen ob bereits vorhanden und identisch
+                    if (file.exists() && file.readText() == jsonString) {
+                         // Keine Änderung, nichts tun
+                         return@Thread
+                    }
+
                     file.writeText(jsonString)
                     cachedQuestions = null // Cache invalidieren, nächster getQuestions nutzt neue Datei
 
