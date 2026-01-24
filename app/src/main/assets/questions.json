@@ -4588,5 +4588,15 @@
     ],
     "correctAnswerIndex": 0,
     "category": "SPORT"
+  },
+  {
+    "text": "Welcher deutsche Kanzler erhielt den Friedensnobelpreis?",
+    "answers": [
+      "Willy Brandt",
+      "Helmut Kohl",
+      "Konrad Adenauer"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
   }
 ]
