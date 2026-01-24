@@ -158,6 +158,16 @@ class MainActivity : AppCompatActivity() {
 
     private fun installApk(file: File) {
         try {
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                if (!packageManager.canRequestPackageInstalls()) {
+                    Toast.makeText(this, "Bitte 'Unbekannte Apps installieren' erlauben", Toast.LENGTH_LONG).show()
+                    startActivity(Intent(android.provider.Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES).apply {
+                        data = android.net.Uri.parse("package:$packageName")
+                    })
+                    return
+                }
+            }
+
             val uri = FileProvider.getUriForFile(this, "${packageName}.fileprovider", file)
             val intent = Intent(Intent.ACTION_VIEW).apply {
                 setDataAndType(uri, "application/vnd.android.package-archive")
