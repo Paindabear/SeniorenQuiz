@@ -1,0 +1,26 @@
+[
+    {
+        "text": "Welches Instrument hören Sie?",
+        "answers": [
+            "Klavier",
+            "Geige",
+            "Trompete",
+            "Flöte"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "MUSIC",
+        "audioPath": "piano.mp3"
+    },
+    {
+        "text": "Wer spricht hier?",
+        "answers": [
+            "Angela Merkel",
+            "Helmut Kohl",
+            "Gerhard Schröder",
+            "Willy Brandt"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "audioPath": "merkel.mp3"
+    }
+]

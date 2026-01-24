@@ -22,6 +22,7 @@ class QuizActivity : AppCompatActivity() {
     private lateinit var binding: ActivityQuizBinding
     private val viewModel: QuizViewModel by viewModels()
     private var toneGenerator: ToneGenerator? = null
+    private var mediaPlayer: android.media.MediaPlayer? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,9 +40,15 @@ class QuizActivity : AppCompatActivity() {
         }
 
         val category = intent.getStringExtra("CATEGORY") ?: "ALL"
+        val quizModeName = intent.getStringExtra("QUIZ_MODE") ?: "TEXT"
+        val quizMode = try {
+            QuizMode.valueOf(quizModeName)
+        } catch (e: IllegalArgumentException) {
+            QuizMode.TEXT
+        }
 
         // ViewModel init (lädt Fragen nur beim ersten Mal)
-        viewModel.loadQuestionsIfNeeded(this, category)
+        viewModel.loadQuestionsIfNeeded(this, category, quizMode)
 
         if (viewModel.questionList.isEmpty()) {
             finish()
@@ -102,6 +109,31 @@ class QuizActivity : AppCompatActivity() {
         binding.btnAnswer1.text = question.answers[0]
         binding.btnAnswer2.text = question.answers[1]
         binding.btnAnswer3.text = question.answers[2]
+
+        // Media Reset & Loading
+        binding.ivQuizImage.visibility = View.GONE
+        binding.btnPlayAudio.visibility = View.GONE
+        stopAudio()
+
+        if (!question.imagePath.isNullOrEmpty()) {
+            try {
+                // Remove prefix if present (e.g., if JSON has "assets/...")
+                val path = question.imagePath.removePrefix("assets/")
+                val inputStream = assets.open(path)
+                val drawable = android.graphics.drawable.Drawable.createFromStream(inputStream, null)
+                binding.ivQuizImage.setImageDrawable(drawable)
+                binding.ivQuizImage.visibility = View.VISIBLE
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }
+
+        if (!question.audioPath.isNullOrEmpty()) {
+            binding.btnPlayAudio.visibility = View.VISIBLE
+            binding.btnPlayAudio.setOnClickListener {
+                playAudio(question.audioPath)
+            }
+        }
 
         // Reset Visuals
         binding.tvStatus.text = ""
@@ -233,6 +265,31 @@ class QuizActivity : AppCompatActivity() {
         super.onDestroy()
         toneGenerator?.release()
         toneGenerator = null
+        stopAudio()
+    }
+
+    private fun playAudio(filename: String) {
+        stopAudio()
+        try {
+            val path = filename.removePrefix("assets/")
+            val afd = assets.openFd(path)
+            mediaPlayer = android.media.MediaPlayer().apply {
+                setDataSource(afd.fileDescriptor, afd.startOffset, afd.length)
+                prepare()
+                start()
+                setOnCompletionListener {
+                    // Optional: Reset button visual state if we had one
+                }
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+            android.widget.Toast.makeText(this, "Audiofehler: ${e.message}", android.widget.Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    private fun stopAudio() {
+        mediaPlayer?.release()
+        mediaPlayer = null
     }
 
     private fun getCategoryTitle(categoryCode: String): String {

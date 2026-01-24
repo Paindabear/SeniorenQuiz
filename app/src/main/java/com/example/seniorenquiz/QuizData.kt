@@ -12,8 +12,17 @@ data class Question(
     val text: String,
     val answers: List<String>,
     val correctAnswerIndex: Int,
-    val category: String
+    val category: String,
+    val imagePath: String? = null,
+    val audioPath: String? = null
 )
+
+enum class QuizMode {
+    TEXT,
+    IMAGE,
+    AUDIO,
+    FAIRYTALE
+}
 
 object QuizRepository {
 
@@ -25,12 +34,24 @@ object QuizRepository {
     private val listType = object : TypeToken<List<Question>>() {}.type
     private val gson = Gson()
 
-    fun getQuestions(context: Context): List<Question> {
+    fun getQuestions(context: Context, mode: QuizMode): List<Question> {
+        val fileName = when (mode) {
+            QuizMode.IMAGE -> "images.json"
+            QuizMode.AUDIO -> "audio.json"
+            else -> "questions.json" // TEXT und FAIRYTALE nutzen questions.json (filter später)
+        }
+
+        // 1. Image/Audio erstmal nur aus Assets laden (einfacher Start)
+        if (mode == QuizMode.IMAGE || mode == QuizMode.AUDIO) {
+             return loadFromAssets(context, fileName)
+        }
+
+        // 2. Text-Fragen wie bisher (Cache/Update-Logik)
         if (cachedQuestions != null) {
             return cachedQuestions!!
         }
 
-        // 1. Bevorzugt: lokale Datei (von GitHub-Update)
+        // Bevorzugt: lokale Datei (von GitHub-Update)
         val localFile = File(context.filesDir, LOCAL_QUESTIONS_FILE)
         if (localFile.exists()) {
             try {
@@ -47,15 +68,18 @@ object QuizRepository {
             }
         }
 
-        // 2. Fallback: Fragen aus Assets (Basis-Version in der APK)
-        try {
-            val jsonString = context.assets.open("questions.json").bufferedReader().use { it.readText() }
-            cachedQuestions = gson.fromJson(jsonString, listType)
-        } catch (e: Exception) {
-            e.printStackTrace()
-        }
-
+        // Fallback: Assets
+        cachedQuestions = loadFromAssets(context, "questions.json")
         return cachedQuestions ?: emptyList()
+    }
+
+    private fun loadFromAssets(context: Context, fileName: String): List<Question> {
+        return try {
+            val jsonString = context.assets.open(fileName).bufferedReader().use { it.readText() }
+            gson.fromJson(jsonString, listType)
+        } catch (e: Exception) {
+            emptyList()
+        }
     }
 
     /**

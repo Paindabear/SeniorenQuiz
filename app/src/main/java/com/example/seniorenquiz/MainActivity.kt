@@ -39,6 +39,14 @@ class MainActivity : AppCompatActivity() {
                     loadFragment(FairyTaleFragment())
                     true
                 }
+                R.id.nav_images -> {
+                    loadFragment(ImageStartFragment())
+                    true
+                }
+                R.id.nav_audio -> {
+                    loadFragment(AudioStartFragment())
+                    true
+                }
                 else -> false
             }
         }

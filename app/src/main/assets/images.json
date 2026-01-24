@@ -1,0 +1,26 @@
+[
+    {
+        "text": "Was ist auf diesem Bild zu sehen?",
+        "answers": [
+            "Ein Apfel",
+            "Eine Birne",
+            "Eine Banane",
+            "Eine Kirsche"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "NATURE",
+        "imagePath": "apple.jpg"
+    },
+    {
+        "text": "Welches Tier ist das?",
+        "answers": [
+            "Hund",
+            "Katze",
+            "Maus",
+            "Elefant"
+        ],
+        "correctAnswerIndex": 1,
+        "category": "NATURE",
+        "imagePath": "cat.jpg"
+    }
+]

@@ -59,6 +59,31 @@
                 app:cornerRadius="24dp" />
         </LinearLayout>
 
+        <!-- Image and Audio Controls (Initially Gone) -->
+        <ImageView
+            android:id="@+id/ivQuizImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="250dp"
+            android:layout_marginBottom="24dp"
+            android:visibility="gone"
+            tools:src="@drawable/ic_image" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPlayAudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Audio abspielen"
+            android:textSize="24sp"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp"
+            android:visibility="gone"
+            app:icon="@android:drawable/ic_media_play"
+            app:iconSize="32dp"
+            app:backgroundTint="#FF5722"
+            app:cornerRadius="24dp" />
+
         <!-- Question Text -->
         <TextView
             android:id="@+id/tvQuestion"
