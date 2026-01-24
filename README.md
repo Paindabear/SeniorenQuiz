@@ -30,11 +30,15 @@ Eine barrierefreie, seniorengerechte Quiz-App für Android, entwickelt, um das G
 #### 3. Bilder-Quiz (NEU in v1.3)
 *   Fragen mit visueller Unterstützung.
 *   Erkennen von Tieren, Objekten oder Sehenswürdigkeiten anhand von Bildern.
-*   **NEU in v1.3.1**: Antippen der Bilder (Lupe) öffnet eine Vollbildansicht für bessere Erkennbarkeit.
+*   **NEU in v1.3.1**: Antippen der Bilder öffnet eine Vollbildansicht für bessere Erkennbarkeit.
 
 #### 4. Audio-Quiz (NEU in v1.3)
 *   Fragen mit hörbaren Inhalten.
 *   Erkennen von Instrumenten, Stimmen berühmter Persönlichkeiten oder Geräuschen.
+
+### Optimierungen (v1.3.2)
+*   **Zufällige Antworten**: Die Position der richtigen Antwort wechselt nun zufällig (nicht mehr immer Antwort A).
+*   **Verbesserte UI**: Übersichtlichere Vollbildansicht mit großem Schließen-Button am unteren Rand.
 
 ## Tech Stack
 
@@ -65,6 +69,6 @@ Textfragen können unabhängig von App-Updates aktualisiert werden:
 
 ## Installation
 
-1.  Lade die aktuelle `Seniorenquiz.apk` (v1.3.1) herunter.
+1.  Lade die aktuelle `Seniorenquiz.apk` (v1.3.2) herunter.
 2.  Installiere sie auf dem Android-Gerät (Dateimanager -> APK antippen).
 3.  Viel Spaß beim Rätseln!

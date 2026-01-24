@@ -68,8 +68,7 @@ class QuizActivity : AppCompatActivity() {
         binding.btnAnswer3.setOnClickListener { checkAnswer(2) }
 
         binding.btnJoker.setOnClickListener { useJoker() }
-
-        binding.btnMagnify.setOnClickListener { showFullScreenImage() }
+        
         binding.ivQuizImage.setOnClickListener { showFullScreenImage() }
         binding.btnCloseFullScreen.setOnClickListener { closeFullScreenImage() }
         binding.fullScreenContainer.setOnClickListener { closeFullScreenImage() }

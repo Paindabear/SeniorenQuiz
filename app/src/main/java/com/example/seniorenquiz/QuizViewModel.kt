@@ -24,7 +24,20 @@ class QuizViewModel : ViewModel() {
                 else -> allQuestions.filter { it.category == category }
             }
         }
-        questionList = filteredQuestions.shuffled().take(10)
+        questionList = filteredQuestions.shuffled().take(10).map { shuffleAnswers(it) }
+    }
+
+    private fun shuffleAnswers(question: Question): Question {
+        // Create a list of the answers
+        val displayedAnswers = question.answers.toMutableList()
+        // Identify the correct answer string
+        val correctAnswer = displayedAnswers[question.correctAnswerIndex]
+        // Shuffle the answers
+        displayedAnswers.shuffle()
+        // Find the new index of the correct answer
+        val newIndex = displayedAnswers.indexOf(correctAnswer)
+        // Return a copy of the question with shuffled answers and updated index
+        return question.copy(answers = displayedAnswers, correctAnswerIndex = newIndex)
     }
 
     fun getCurrentQuestion(): Question? {

@@ -80,24 +80,6 @@
                     android:adjustViewBounds="true"
                     android:maxHeight="250dp"
                     tools:src="@drawable/ic_image" />
-
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btnMagnify"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBottom="@id/ivQuizImage"
-                    android:layout_alignEnd="@id/ivQuizImage"
-                    android:layout_margin="8dp"
-                    app:icon="@android:drawable/ic_menu_search"
-                    app:iconTint="#FFFFFF"
-                    app:backgroundTint="#88000000"
-                    app:cornerRadius="24dp"
-                    android:text=""
-                    android:insetLeft="0dp"
-                    android:insetTop="0dp"
-                    android:insetRight="0dp"
-                    android:insetBottom="0dp"
-                    app:iconPadding="0dp"/>
             </RelativeLayout>
 
             <com.google.android.material.button.MaterialButton
@@ -238,11 +220,12 @@
             android:id="@+id/btnCloseFullScreen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="top|end"
-            android:layout_margin="16dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_margin="32dp"
             android:text="Schließen"
-            android:textSize="20sp"
+            android:textSize="24sp"
             android:textStyle="bold"
+            android:padding="16dp"
             app:icon="@android:drawable/ic_menu_close_clear_cancel"
             app:backgroundTint="#D32F2F"
             app:cornerRadius="24dp"/>
