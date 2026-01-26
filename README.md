@@ -40,6 +40,10 @@ Eine barrierefreie, seniorengerechte Quiz-App für Android, entwickelt, um das G
 *   **Zufällige Antworten**: Die Position der richtigen Antwort wechselt nun zufällig (nicht mehr immer Antwort A).
 *   **Verbesserte UI**: Übersichtlichere Vollbildansicht mit großem Schließen-Button am unteren Rand.
 
+### Aktualisierungen (v1.3.3)
+*   **Inhalt**: Frage zum aktuellen Bundeskanzler aktualisiert (Friedrich Merz).
+*   **Inhalt**: Anzahl der Antworten in allen Kategorien auf 3 vereinheitlicht.
+
 ## Tech Stack
 
 *   **Sprache**: Kotlin
@@ -69,6 +73,6 @@ Textfragen können unabhängig von App-Updates aktualisiert werden:
 
 ## Installation
 
-1.  Lade die aktuelle `Seniorenquiz.apk` (v1.3.2) herunter.
+1.  Lade die aktuelle `Seniorenquiz.apk` (v1.3.3) herunter.
 2.  Installiere sie auf dem Android-Gerät (Dateimanager -> APK antippen).
 3.  Viel Spaß beim Rätseln!

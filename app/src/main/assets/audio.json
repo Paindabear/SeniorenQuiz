@@ -4,8 +4,7 @@
         "answers": [
             "John F. Kennedy",
             "Willy Brandt",
-            "Ronald Reagan",
-            "Barack Obama"
+            "Ronald Reagan"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -16,8 +15,7 @@
         "answers": [
             "Walter Ulbricht",
             "Erich Honecker",
-            "Wilhelm Pieck",
-            "Egon Krenz"
+            "Wilhelm Pieck"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -28,8 +26,7 @@
         "answers": [
             "Helmut Kohl",
             "Helmut Schmidt",
-            "Konrad Adenauer",
-            "Gerhard Schröder"
+            "Konrad Adenauer"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -40,8 +37,7 @@
         "answers": [
             "Franz Beckenbauer",
             "Uwe Seeler",
-            "Gerd Müller",
-            "Sepp Herberger"
+            "Gerd Müller"
         ],
         "correctAnswerIndex": 0,
         "category": "SPORT",
@@ -52,8 +48,7 @@
         "answers": [
             "Marcel Reich-Ranicki",
             "Hellmuth Karasek",
-            "Elke Heidenreich",
-            "Roger Willemsen"
+            "Elke Heidenreich"
         ],
         "correctAnswerIndex": 0,
         "category": "TV",
@@ -64,8 +59,7 @@
         "answers": [
             "Tagesschau",
             "heute",
-            "RTL Aktuell",
-            "Tagesthemen"
+            "RTL Aktuell"
         ],
         "correctAnswerIndex": 0,
         "category": "TV",
@@ -76,8 +70,7 @@
         "answers": [
             "Tatort",
             "Polizeiruf 110",
-            "Derrick",
-            "Der Alte"
+            "Derrick"
         ],
         "correctAnswerIndex": 0,
         "category": "TV",
@@ -88,8 +81,7 @@
         "answers": [
             "Wetten, dass..?",
             "Verstehen Sie Spaß?",
-            "Die versteckte Kamera",
-            "Geld oder Liebe"
+            "Die versteckte Kamera"
         ],
         "correctAnswerIndex": 0,
         "category": "TV",
@@ -100,8 +92,7 @@
         "answers": [
             "Lindenstraße",
             "Schwarzwaldklinik",
-            "Praxis Bülowbogen",
-            "Traumschiff"
+            "Praxis Bülowbogen"
         ],
         "correctAnswerIndex": 0,
         "category": "TV",
@@ -112,8 +103,7 @@
         "answers": [
             "Aktuelles Sportstudio",
             "Sportschau",
-            "Doppelpass",
-            "Ran"
+            "Doppelpass"
         ],
         "correctAnswerIndex": 0,
         "category": "SPORT",
@@ -124,8 +114,7 @@
         "answers": [
             "Eurovisions-Melodie",
             "Europahymne",
-            "Nationalhymne",
-            "Champions League"
+            "Nationalhymne"
         ],
         "correctAnswerIndex": 0,
         "category": "MUSIC",
@@ -136,8 +125,7 @@
         "answers": [
             "Dampflokomotive",
             "Auto",
-            "Flugzeug",
-            "Schiff"
+            "Flugzeug"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -148,8 +136,7 @@
         "answers": [
             "Kirchenglocken",
             "Schulglocke",
-            "Türglocke",
-            "Wecker"
+            "Türglocke"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -160,8 +147,7 @@
         "answers": [
             "Schreibmaschine",
             "Computer",
-            "Handy",
-            "Tablet"
+            "Handy"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -172,8 +158,7 @@
         "answers": [
             "Wählscheibentelefon",
             "Rechenmaschine",
-            "Kasse",
-            "Fahrkarteautomat"
+            "Kasse"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -184,8 +169,7 @@
         "answers": [
             "Kaffeemühle",
             "Mixer",
-            "Waschmaschine",
-            "Wasserkocher"
+            "Waschmaschine"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -196,8 +180,7 @@
         "answers": [
             "Meeresrauschen",
             "Regen",
-            "Wind",
-            "Wasserfall"
+            "Wind"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -208,8 +191,7 @@
         "answers": [
             "Akkordeon",
             "Klavier",
-            "Gitarre",
-            "Geige"
+            "Gitarre"
         ],
         "correctAnswerIndex": 0,
         "category": "MUSIC",
@@ -220,8 +202,7 @@
         "answers": [
             "Mundharmonika",
             "Flöte",
-            "Trompete",
-            "Klarinette"
+            "Trompete"
         ],
         "correctAnswerIndex": 0,
         "category": "MUSIC",
@@ -232,8 +213,7 @@
         "answers": [
             "Geige",
             "Cello",
-            "Kontrabass",
-            "Bratsche"
+            "Kontrabass"
         ],
         "correctAnswerIndex": 0,
         "category": "MUSIC",
@@ -244,8 +224,7 @@
         "answers": [
             "Trompete",
             "Posaune",
-            "Horn",
-            "Tuba"
+            "Horn"
         ],
         "correctAnswerIndex": 0,
         "category": "MUSIC",
@@ -256,8 +235,7 @@
         "answers": [
             "Harfe",
             "Gitarre",
-            "Lauten",
-            "Zither"
+            "Lauten"
         ],
         "correctAnswerIndex": 0,
         "category": "MUSIC",
@@ -268,8 +246,7 @@
         "answers": [
             "Orgel",
             "Klavier",
-            "Cembalo",
-            "Akkordeon"
+            "Cembalo"
         ],
         "correctAnswerIndex": 0,
         "category": "MUSIC",

@@ -4,8 +4,7 @@
         "answers": [
             "Brandenburger Tor",
             "Lübecker Tor",
-            "Siegestor",
-            "Isartor"
+            "Siegestor"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -16,8 +15,7 @@
         "answers": [
             "Kölner Dom",
             "Speyerer Dom",
-            "Ulmer Münster",
-            "Frauenkirche"
+            "Ulmer Münster"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -28,8 +26,7 @@
         "answers": [
             "Schloss Neuschwanstein",
             "Schloss Sanssouci",
-            "Schloss Heidelberg",
-            "Burg Hohenzollern"
+            "Schloss Heidelberg"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -40,8 +37,7 @@
         "answers": [
             "Paris",
             "Berlin",
-            "London",
-            "Rom"
+            "London"
         ],
         "correctAnswerIndex": 0,
         "category": "GEOGRAPHY",
@@ -52,8 +48,7 @@
         "answers": [
             "Pisa",
             "Venedig",
-            "Rom",
-            "Florenz"
+            "Rom"
         ],
         "correctAnswerIndex": 0,
         "category": "GEOGRAPHY",
@@ -64,8 +59,7 @@
         "answers": [
             "Lübeck",
             "Hamburg",
-            "Bremen",
-            "Rostock"
+            "Bremen"
         ],
         "correctAnswerIndex": 0,
         "category": "GEOGRAPHY",
@@ -76,8 +70,7 @@
         "answers": [
             "Porta Nigra",
             "Porta Westfalica",
-            "Goldenes Tor",
-            "Hadrianstor"
+            "Goldenes Tor"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -88,8 +81,7 @@
         "answers": [
             "Semperoper",
             "Staatsoper",
-            "Elbphilharmonie",
-            "Festspielhaus"
+            "Elbphilharmonie"
         ],
         "correctAnswerIndex": 0,
         "category": "MUSIC",
@@ -100,8 +92,7 @@
         "answers": [
             "Wählscheibentelefon",
             "Tastentelefon",
-            "Smartphone",
-            "Funktelefon"
+            "Smartphone"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -112,8 +103,7 @@
         "answers": [
             "Kaffeemühle",
             "Mörser",
-            "Reibe",
-            "Mixer"
+            "Reibe"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -124,8 +114,7 @@
         "answers": [
             "Schreibmaschine",
             "Drucker",
-            "Fernschreiber",
-            "Laptop"
+            "Fernschreiber"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -136,8 +125,7 @@
         "answers": [
             "Plattenspieler",
             "CD-Player",
-            "Tonbandgerät",
-            "Grammophon"
+            "Tonbandgerät"
         ],
         "correctAnswerIndex": 0,
         "category": "MUSIC",
@@ -148,8 +136,7 @@
         "answers": [
             "Röhrenfernseher",
             "Mikrowelle",
-            "Radio",
-            "Computer"
+            "Radio"
         ],
         "correctAnswerIndex": 0,
         "category": "TV",
@@ -160,8 +147,7 @@
         "answers": [
             "Spinnrad",
             "Webstuhl",
-            "Haspel",
-            "Nadel"
+            "Haspel"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -172,8 +158,7 @@
         "answers": [
             "Nähmaschine",
             "Mangeln",
-            "Bügeleisen",
-            "Webstuhl"
+            "Bügeleisen"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -184,8 +169,7 @@
         "answers": [
             "Kassettenrekorder",
             "CD-Player",
-            "MP3-Player",
-            "Plattenspieler"
+            "MP3-Player"
         ],
         "correctAnswerIndex": 0,
         "category": "MUSIC",
@@ -196,8 +180,7 @@
         "answers": [
             "Eichelhäher",
             "Specht",
-            "Elster",
-            "Spatz"
+            "Elster"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -208,8 +191,7 @@
         "answers": [
             "Rotkehlchen",
             "Dompfaff",
-            "Fink",
-            "Meise"
+            "Fink"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -220,8 +202,7 @@
         "answers": [
             "Amsel",
             "Rabe",
-            "Krähe",
-            "Star"
+            "Krähe"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -232,8 +213,7 @@
         "answers": [
             "Blaumeise",
             "Kohlmeise",
-            "Haubenmeise",
-            "Weidenmeise"
+            "Haubenmeise"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -244,8 +224,7 @@
         "answers": [
             "Kastanie",
             "Eiche",
-            "Buche",
-            "Ahorn"
+            "Buche"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -256,8 +235,7 @@
         "answers": [
             "Eiche",
             "Ahorn",
-            "Linde",
-            "Birke"
+            "Linde"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -268,8 +246,7 @@
         "answers": [
             "Ahorn",
             "Platane",
-            "Kastanie",
-            "Esche"
+            "Kastanie"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -280,8 +257,7 @@
         "answers": [
             "Birke",
             "Pappel",
-            "Erle",
-            "Buche"
+            "Erle"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -292,8 +268,7 @@
         "answers": [
             "Edelweiß",
             "Enzian",
-            "Alpenrose",
-            "Veilchen"
+            "Alpenrose"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -304,8 +279,7 @@
         "answers": [
             "Mohnblume",
             "Rose",
-            "Nelke",
-            "Tulpe"
+            "Nelke"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -316,8 +290,7 @@
         "answers": [
             "Kornblume",
             "Wegwarte",
-            "Vergissmeinnicht",
-            "Glockenblume"
+            "Vergissmeinnicht"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -328,8 +301,7 @@
         "answers": [
             "Fliegenpilz",
             "Steinpilz",
-            "Champignon",
-            "Pfifferling"
+            "Champignon"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -340,8 +312,7 @@
         "answers": [
             "Steinpilz",
             "Maronenröhrling",
-            "Birkenpilz",
-            "Rotkappe"
+            "Birkenpilz"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -352,8 +323,7 @@
         "answers": [
             "Pfifferling",
             "Champignon",
-            "Trüffel",
-            "Hallimasch"
+            "Trüffel"
         ],
         "correctAnswerIndex": 0,
         "category": "NATURE",
@@ -364,8 +334,7 @@
         "answers": [
             "Konrad Adenauer",
             "Ludwig Erhard",
-            "Willy Brandt",
-            "Helmut Schmidt"
+            "Willy Brandt"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -376,8 +345,7 @@
         "answers": [
             "Willy Brandt",
             "Helmut Kohl",
-            "Gerhard Schröder",
-            "Kurt Georg Kiesinger"
+            "Gerhard Schröder"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -388,8 +356,7 @@
         "answers": [
             "Romy Schneider",
             "Marlene Dietrich",
-            "Hildegard Knef",
-            "Uschi Glas"
+            "Hildegard Knef"
         ],
         "correctAnswerIndex": 0,
         "category": "TV",
@@ -400,8 +367,7 @@
         "answers": [
             "Heinz Rühmann",
             "Hans Albers",
-            "Gert Fröbe",
-            "Curd Jürgens"
+            "Gert Fröbe"
         ],
         "correctAnswerIndex": 0,
         "category": "TV",
@@ -412,8 +378,7 @@
         "answers": [
             "Hildegard Knef",
             "Zarah Leander",
-            "Marlene Dietrich",
-            "Lale Andersen"
+            "Marlene Dietrich"
         ],
         "correctAnswerIndex": 0,
         "category": "MUSIC",
@@ -424,8 +389,7 @@
         "answers": [
             "Marlene Dietrich",
             "Hildegard Knef",
-            "Zarah Leander",
-            "Caterina Valente"
+            "Zarah Leander"
         ],
         "correctAnswerIndex": 0,
         "category": "MUSIC",
@@ -436,20 +400,18 @@
         "answers": [
             "Roy Black",
             "Udo Jürgens",
-            "Rex Gildo",
-            "Peter Alexander"
+            "Rex Gildo"
         ],
         "correctAnswerIndex": 0,
         "category": "MUSIC",
         "imagePath": "roy_black.jpg"
     },
     {
-        "text": "Wer ist dieser CDU-Politiker?",
+        "text": "Wer ist der aktuelle Bundeskanzler (CDU)?",
         "answers": [
             "Friedrich Merz",
             "Armin Laschet",
-            "Jens Spahn",
-            "Helmut Kohl"
+            "Jens Spahn"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -460,20 +422,18 @@
         "answers": [
             "Markus Söder",
             "Edmund Stoiber",
-            "Horst Seehofer",
-            "Franz Josef Strauß"
+            "Horst Seehofer"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
         "imagePath": "soeder.jpg"
     },
     {
-        "text": "Wer ist der aktuelle Bundeskanzler (SPD)?",
+        "text": "Wer ist dieser SPD-Politiker?",
         "answers": [
             "Olaf Scholz",
             "Gerhard Schröder",
-            "Martin Schulz",
-            "Sigmar Gabriel"
+            "Martin Schulz"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -484,8 +444,7 @@
         "answers": [
             "Robert Habeck",
             "Joschka Fischer",
-            "Cem Özdemir",
-            "Jürgen Trittin"
+            "Cem Özdemir"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
@@ -496,8 +455,7 @@
         "answers": [
             "Ursula von der Leyen",
             "Angela Merkel",
-            "Annegret Kramp-Karrenbauer",
-            "Christine Lagarde"
+            "Annegret Kramp-Karrenbauer"
         ],
         "correctAnswerIndex": 0,
         "category": "HISTORY",
