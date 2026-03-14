@@ -321,6 +321,7 @@ class QuizActivity : AppCompatActivity() {
     private fun getCategoryTitle(categoryCode: String): String {
         return when (categoryCode) {
             "ALL" -> getString(R.string.category_mix)
+            "IMAGE_MIX" -> getString(R.string.category_mix)
             "NATURE" -> getString(R.string.category_nature)
             "PROVERBS" -> getString(R.string.category_proverbs)
             "HISTORY" -> getString(R.string.category_history)

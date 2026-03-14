@@ -27,21 +27,114 @@
             android:layout_marginBottom="32dp"/>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnStartImageQuiz"
+            android:id="@+id/btnImageMix"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
             android:minHeight="120dp"
-            android:text="Bilder-Quiz Starten"
+            android:text="Bunte Mischung"
             android:textAllCaps="false"
             android:textColor="#3E2723"
-            android:textSize="36sp"
+            android:textSize="42sp"
             android:textStyle="bold"
+            app:icon="@drawable/ic_mixed"
+            app:iconSize="56dp"
+            app:iconTint="#3E2723"
             app:backgroundTint="#FFCC80"
             app:cornerRadius="50dp"
             app:elevation="12dp"
             app:strokeColor="#E65100"
             app:strokeWidth="4dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnImageNature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="100dp"
+            android:text="Natur &amp; Tiere"
+            android:textAllCaps="false"
+            android:textColor="#1B5E20"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_nature"
+            app:iconSize="48dp"
+            app:iconTint="#1B5E20"
+            app:backgroundTint="#C8E6C9"
+            app:cornerRadius="50dp"
+            app:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnImageHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="100dp"
+            android:text="Geschichte"
+            android:textAllCaps="false"
+            android:textColor="#3E2723"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_history"
+            app:iconSize="48dp"
+            app:iconTint="#3E2723"
+            app:backgroundTint="#D7CCC8"
+            app:cornerRadius="50dp"
+            app:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnImageGeography"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="100dp"
+            android:text="Geografie"
+            android:textAllCaps="false"
+            android:textColor="#004D40"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_geography"
+            app:iconSize="48dp"
+            app:iconTint="#004D40"
+            app:backgroundTint="#B2DFDB"
+            app:cornerRadius="50dp"
+            app:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnImageMusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="100dp"
+            android:text="Musik &amp; Lieder"
+            android:textAllCaps="false"
+            android:textColor="#4A148C"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_music"
+            app:iconSize="48dp"
+            app:iconTint="#4A148C"
+            app:backgroundTint="#E1BEE7"
+            app:cornerRadius="50dp"
+            app:elevation="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnImageTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="100dp"
+            android:text="Filme &amp; Fernsehen"
+            android:textAllCaps="false"
+            android:textColor="#B71C1C"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_tv"
+            app:iconSize="48dp"
+            app:iconTint="#B71C1C"
+            app:backgroundTint="#FFCDD2"
+            app:cornerRadius="50dp"
+            app:elevation="8dp" />
 
     </LinearLayout>
 </ScrollView>

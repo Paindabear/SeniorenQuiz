@@ -460,5 +460,82 @@
         "correctAnswerIndex": 0,
         "category": "HISTORY",
         "imagePath": "vonderleyen.jpg"
+    },
+    {
+        "text": "Wer war 16 Jahre lang Bundeskanzlerin?",
+        "answers": [
+            "Angela Merkel",
+            "Helmut Kohl",
+            "Gerhard Schröder"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "merkel.jpg"
+    },
+    {
+        "text": "Wer war Bundeskanzler bei der Wiedervereinigung 1990?",
+        "answers": [
+            "Helmut Kohl",
+            "Willy Brandt",
+            "Helmut Schmidt"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "kohl.jpg"
+    },
+    {
+        "text": "Welcher Kanzler wurde 'Genosse der Bosse' genannt?",
+        "answers": [
+            "Gerhard Schröder",
+            "Helmut Kohl",
+            "Willy Brandt"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "schroeder.jpg"
+    },
+    {
+        "text": "Wer war Kanzler in den 1970er Jahren (nach Willy Brandt)?",
+        "answers": [
+            "Helmut Schmidt",
+            "Helmut Kohl",
+            "Konrad Adenauer"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "HISTORY",
+        "imagePath": "schmidt.jpg"
+    },
+    {
+        "text": "Wer sang 'Merci Chérie' und 'Griechischer Wein'?",
+        "answers": [
+            "Udo Jürgens",
+            "Heino",
+            "Roy Black"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "MUSIC",
+        "imagePath": "udo_juergens.jpg"
+    },
+    {
+        "text": "Welcher Sänger trug oft eine Sonnenbrille und sang 'Blau blüht der Enzian'?",
+        "answers": [
+            "Heino",
+            "Udo Jürgens",
+            "Peter Alexander"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "MUSIC",
+        "imagePath": "heino.jpg"
+    },
+    {
+        "text": "Welcher Sänger und Schauspieler moderierte 'Peter Alexander Show'?",
+        "answers": [
+            "Peter Alexander",
+            "Heino",
+            "Roy Black"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "MUSIC",
+        "imagePath": "peter_alexander.jpg"
     }
 ]

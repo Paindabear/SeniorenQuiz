@@ -9898,5 +9898,175 @@
     ],
     "correctAnswerIndex": 0,
     "category": "NATURE"
+  },
+  {
+    "text": "Wer war die erste Bundeskanzlerin Deutschlands?",
+    "answers": [
+      "Angela Merkel",
+      "Margaret Thatcher",
+      "Edith Cresson"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wie viele Jahre war Angela Merkel Bundeskanzlerin?",
+    "answers": [
+      "16 Jahre",
+      "12 Jahre",
+      "8 Jahre"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wer war Bundeskanzler bei der deutschen Wiedervereinigung 1990?",
+    "answers": [
+      "Helmut Kohl",
+      "Willy Brandt",
+      "Helmut Schmidt"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "In welchem Jahr fiel die Berliner Mauer?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "In welchem Jahr war die deutsche Wiedervereinigung?",
+    "answers": [
+      "1990",
+      "1989",
+      "1991"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Womit bezahlte man in der DDR?",
+    "answers": [
+      "Mark der DDR",
+      "D-Mark",
+      "Euro"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Welcher Kanzler regierte am längsten (16 Jahre)?",
+    "answers": [
+      "Helmut Kohl",
+      "Konrad Adenauer",
+      "Angela Merkel"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Von welcher Partei war Angela Merkel?",
+    "answers": [
+      "CDU",
+      "SPD",
+      "Grüne"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wer sang 'Ganz in Weiß'?",
+    "answers": [
+      "Roy Black",
+      "Udo Jürgens",
+      "Heino"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Wer sang 'Über sieben Brücken musst du gehn'?",
+    "answers": [
+      "Karin und Stefan",
+      "Nena",
+      "Nicole"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Welcher Sänger wurde 'Der König des Schlagers' genannt?",
+    "answers": [
+      "Heino",
+      "Udo Jürgens",
+      "Peter Alexander"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "MUSIC"
+  },
+  {
+    "text": "Welche Schauspielerin spielte die 'Sissi'?",
+    "answers": [
+      "Romy Schneider",
+      "Marlene Dietrich",
+      "Hildegard Knef"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Wer spielte den 'Hauptmann von Köpenick'?",
+    "answers": [
+      "Heinz Rühmann",
+      "Hans Albers",
+      "Curd Jürgens"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TV"
+  },
+  {
+    "text": "Welche Währung hatte Deutschland vor dem Euro?",
+    "answers": [
+      "D-Mark",
+      "Reichsmark",
+      "Gulden"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "In welchem Jahr wurde die D-Mark durch den Euro abgelöst?",
+    "answers": [
+      "2002",
+      "2000",
+      "1999"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Wer war der 'Eiserne Kanzler'?",
+    "answers": [
+      "Otto von Bismarck",
+      "Konrad Adenauer",
+      "Helmut Kohl"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
+  },
+  {
+    "text": "Welcher deutsche Kanzler kniete 1970 in Warschau am Ehrenmal?",
+    "answers": [
+      "Willy Brandt",
+      "Helmut Schmidt",
+      "Konrad Adenauer"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HISTORY"
   }
 ]
