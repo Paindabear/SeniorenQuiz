@@ -58,8 +58,10 @@ class MainActivity : AppCompatActivity() {
         Thread {
             try {
                 val json = URL(versionJsonUrl).readText()
+                // Kein JSON (z. B. HTML-Fehlerseite) → nicht parsen
+                if (json.trimStart().startsWith("<")) return@Thread
                 val info = Gson().fromJson(json, VersionInfo::class.java)
-                if (info.versionCode > BuildConfig.VERSION_CODE && info.apkUrl.isNotBlank()) {
+                if (info.versionCode > BuildConfig.VERSION_CODE && !info.apkUrl.isNullOrBlank()) {
                     runOnUiThread { showUpdateDialog(info.apkUrl) }
                 }
             } catch (e: Exception) {
@@ -112,7 +114,7 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
 
-                if (file.exists() && file.length() > 0) {
+                if (file.exists() && file.length() > 0 && isValidApkFile(file)) {
                     runOnUiThread { 
                         if (!isFinishing) {
                             dialog.dismiss()
@@ -120,7 +122,8 @@ class MainActivity : AppCompatActivity() {
                         }
                     }
                 } else {
-                    throw Exception("Download fehlgeschlagen (Datei leer)")
+                    file.delete()
+                    throw Exception("Download fehlgeschlagen – die Datei ist ungültig. Bitte Update manuell von GitHub laden.")
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
@@ -169,6 +172,18 @@ class MainActivity : AppCompatActivity() {
             }
         }
         connection.disconnect()
+    }
+
+    /** Prüft, ob die Datei wie eine APK (ZIP) beginnt – verhindert Installation von HTML/Fehlerseiten. */
+    private fun isValidApkFile(file: File): Boolean {
+        if (!file.exists() || file.length() < 4) return false
+        return try {
+            java.io.FileInputStream(file).use { input ->
+                input.read() == 0x50 && input.read() == 0x4B // "PK" = ZIP/APK-Signatur
+            }
+        } catch (e: Exception) {
+            false
+        }
     }
 
     private fun installApk(file: File) {
