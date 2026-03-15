@@ -28,6 +28,8 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            // Signierung nötig, sonst: "Paket ungültig" beim Installieren
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
     compileOptions {
