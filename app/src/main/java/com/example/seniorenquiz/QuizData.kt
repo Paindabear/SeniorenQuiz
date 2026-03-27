@@ -27,7 +27,7 @@ enum class QuizMode {
 object QuizRepository {
 
     // Bei Repo-Root: .../master/questions.json
-    private const val QUESTIONS_JSON_URL = "https://raw.githubusercontent.com/Petlus/SeniorenQuiz/master/app/src/main/assets/questions.json"
+    private const val QUESTIONS_JSON_URL = "https://raw.githubusercontent.com/Paindabear/SeniorenQuiz/master/app/src/main/assets/questions.json"
     private const val LOCAL_QUESTIONS_FILE = "questions.json"
 
     private var cachedQuestions: List<Question>? = null

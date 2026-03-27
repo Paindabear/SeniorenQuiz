@@ -16,4 +16,8 @@
         android:id="@+id/nav_audio"
         android:icon="@drawable/ic_music"
         android:title="Audio" />
+    <item
+        android:id="@+id/nav_holiday"
+        android:icon="@drawable/ic_holiday"
+        android:title="Feste" />
 </menu>

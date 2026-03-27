@@ -16,7 +16,7 @@ import java.net.URL
 
 class MainActivity : AppCompatActivity() {
 
-    private val versionJsonUrl = "https://raw.githubusercontent.com/Petlus/SeniorenQuiz/master/version.json"
+    private val versionJsonUrl = "https://raw.githubusercontent.com/Paindabear/SeniorenQuiz/master/version.json"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,6 +45,10 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.nav_audio -> {
                     loadFragment(AudioStartFragment())
+                    true
+                }
+                R.id.nav_holiday -> {
+                    loadFragment(HolidayFragment())
                     true
                 }
                 else -> false

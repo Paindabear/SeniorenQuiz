@@ -10068,5 +10068,251 @@
     ],
     "correctAnswerIndex": 0,
     "category": "HISTORY"
+  },
+  {
+    "text": "Welches Tier bringt laut Tradition die Ostereier?",
+    "answers": ["Osterhase", "Fuchs", "Storch"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "An welchem Feiertag feiern Christen die Auferstehung Jesu?",
+    "answers": ["Ostersonntag", "Karfreitag", "Pfingstsonntag"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Was geschah laut Bibel an Karfreitag mit Jesus?",
+    "answers": ["Er wurde gekreuzigt", "Er wurde getauft", "Er wurde geboren"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Wie nennt man die Woche vor Ostern?",
+    "answers": ["Karwoche", "Pfingstwoche", "Adventswoche"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "An welchem Tag fand laut Bibel das letzte Abendmahl statt?",
+    "answers": ["Gründonnerstag", "Karfreitag", "Karsamstag"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Welche Blume ist typisch für den Frühling und Ostern?",
+    "answers": ["Osterglocke", "Weihnachtsstern", "Chrysantheme"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Was symbolisiert das Osterei?",
+    "answers": ["Neues Leben", "Reichtum", "Stärke"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Was ist ein Osterfeuer?",
+    "answers": ["Ein Brauchtumsfeuer in der Osternacht", "Ein Lagerfeuer am Ostersonntag", "Ein Kerzenritual in der Kirche"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Welche Farben verbindet man typisch mit Ostern?",
+    "answers": ["Gelb, Grün und Pastellfarben", "Rot und Schwarz", "Blau und Silber"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Was ist der Palmsonntag?",
+    "answers": ["Der Sonntag eine Woche vor Ostern", "Der Sonntag nach Ostern", "Der erste Sonntag der Fastenzeit"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "In welchen Monaten liegt Ostern immer?",
+    "answers": ["März oder April", "Mai oder Juni", "Februar oder März"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Welches Fleischgericht isst man traditionell an Ostern?",
+    "answers": ["Osterlamm", "Truthahn", "Karpfen"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Wie heißt der Montag nach Ostersonntag?",
+    "answers": ["Ostermontag", "Weißer Montag", "Rosenmontag"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Wie viele Tage dauert die Fastenzeit vor Ostern?",
+    "answers": ["40 Tage", "30 Tage", "50 Tage"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "In welchem Land ist der Osterhase als Brauch entstanden?",
+    "answers": ["Deutschland", "Frankreich", "England"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Was wird in der Osternacht in der Kirche entzündet?",
+    "answers": ["Die Osterkerze", "Ein Osterfeuer im Altar", "Eine Adventskerze"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Was wird am Palmsonntag in der Kirche an die Gläubigen verteilt?",
+    "answers": ["Palmzweige oder Buchsbaum", "Ostereier", "Süßigkeiten"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Wer versteckt laut Tradition die Ostereier für die Kinder?",
+    "answers": ["Der Osterhase", "Der Nikolaus", "Die Osterfee"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Was bedeutet das Wort 'Kar' in Karfreitag?",
+    "answers": ["Klage oder Trauer", "Kar kommt von Kirche", "Kar bedeutet Freiheit"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Was ist ein typisches Ostergebäck?",
+    "answers": ["Osterzopf", "Stollen", "Lebkuchen"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Was macht man traditionell zu Ostern mit Eiern?",
+    "answers": ["Man färbt und bemalt sie", "Man backt sie im Ofen", "Man vergräbt sie im Garten"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Welcher bekannte Dichter schrieb einen 'Osterspaziergang'?",
+    "answers": ["Johann Wolfgang von Goethe", "Friedrich Schiller", "Heinrich Heine"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Welches Tier gilt neben dem Hasen noch als Ostersymbol für neues Leben?",
+    "answers": ["Küken", "Hund", "Pferd"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Was ist die Osternacht?",
+    "answers": ["Die Gottesdienst-Nacht von Karsamstag auf Ostersonntag", "Eine Feuershow am Ostersamstag", "Eine Party der Kinder"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Womit schmückt man zu Ostern gerne Zweige in der Vase?",
+    "answers": ["Mit bunten Eiern und Küken", "Mit Weihnachtskugeln", "Mit Laternen"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Was bringt der Osterhase den Kindern traditionell?",
+    "answers": ["Schokolade und bemalte Eier", "Spielzeug und Bücher", "Kleider und Schuhe"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Wie nennt man die Zeit von Aschermittwoch bis Ostern?",
+    "answers": ["Fastenzeit", "Adventszeit", "Pfingstzeit"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "An welchem Tag beginnt die Fastenzeit?",
+    "answers": ["Aschermittwoch", "Weißer Sonntag", "Palmsonntag"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Was ist das Osterlamm in der christlichen Symbolik?",
+    "answers": ["Ein Symbol für Jesus Christus", "Ein Symbol für den Heiligen Geist", "Ein Symbol für Maria"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Was versteckt man am Ostersonntag für die Kinder im Garten?",
+    "answers": ["Ostereier und Süßigkeiten", "Weihnachtsgebäck", "Adventspäckchen"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Welcher Tag markiert den Beginn der Karwoche?",
+    "answers": ["Palmsonntag", "Aschermittwoch", "Gründonnerstag"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_EASTER"
+  },
+  {
+    "text": "Was feiern Christen an Pfingsten?",
+    "answers": ["Die Ausgießung des Heiligen Geistes", "Die Auferstehung Jesu", "Die Geburt Jesu"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_PENTECOST"
+  },
+  {
+    "text": "Wie viele Tage nach Ostern ist Pfingsten?",
+    "answers": ["50 Tage", "40 Tage", "30 Tage"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_PENTECOST"
+  },
+  {
+    "text": "Was ist das bekannteste Symbol des Heiligen Geistes?",
+    "answers": ["Eine weiße Taube", "Ein Lamm", "Ein Fisch"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_PENTECOST"
+  },
+  {
+    "text": "Welche Farbe trägt der Priester an Pfingsten?",
+    "answers": ["Rot", "Weiß", "Grün"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_PENTECOST"
+  },
+  {
+    "text": "Wie heißt der Tag nach dem Pfingstsonntag?",
+    "answers": ["Pfingstmontag", "Weißer Montag", "Dreifaltigkeitssonntag"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_PENTECOST"
+  },
+  {
+    "text": "Wann feiert man Weihnachten in Deutschland?",
+    "answers": ["Am 24. und 25. Dezember", "Am 6. Dezember", "Am 31. Dezember"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_CHRISTMAS"
+  },
+  {
+    "text": "Wie viele Kerzen hat ein Adventskranz?",
+    "answers": ["Vier", "Drei", "Fünf"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_CHRISTMAS"
+  },
+  {
+    "text": "Was bringt der Nikolaus traditionell am 6. Dezember?",
+    "answers": ["Süßigkeiten und Nüsse", "Spielzeug und Elektronik", "Bücher und Kleider"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_CHRISTMAS"
+  },
+  {
+    "text": "Wie nennt man die drei Weisen, die das Jesuskind besuchten?",
+    "answers": ["Die Heiligen Drei Könige", "Die Apostel", "Die Propheten"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_CHRISTMAS"
+  },
+  {
+    "text": "Wie lange dauert der Advent?",
+    "answers": ["Vier Wochen vor Weihnachten", "Sechs Wochen vor Weihnachten", "Zwei Wochen vor Weihnachten"],
+    "correctAnswerIndex": 0,
+    "category": "FEST_CHRISTMAS"
   }
 ]

@@ -341,6 +341,9 @@ class QuizActivity : AppCompatActivity() {
             "GRIMM_HOLLE" -> getString(R.string.category_holle)
             "GRIMM_RUMPEL" -> getString(R.string.category_rumpel)
             "GRIMM_GOATS" -> getString(R.string.category_goats)
+            "FEST_EASTER" -> getString(R.string.category_easter)
+            "FEST_PENTECOST" -> getString(R.string.category_pentecost)
+            "FEST_CHRISTMAS" -> getString(R.string.category_christmas)
             else -> getString(R.string.default_quiz_title)
         }
     }
@@ -367,6 +370,9 @@ class QuizActivity : AppCompatActivity() {
             "GRIMM_HOLLE" -> Color.parseColor("#B3E5FC")
             "GRIMM_RUMPEL" -> Color.parseColor("#D7CCC8")
             "GRIMM_GOATS" -> Color.parseColor("#FFCCBC")
+            "FEST_EASTER" -> Color.parseColor("#FFF176")
+            "FEST_PENTECOST" -> Color.parseColor("#81D4FA")
+            "FEST_CHRISTMAS" -> Color.parseColor("#EF9A9A")
             else -> Color.parseColor("#90A4AE")
         }
     }

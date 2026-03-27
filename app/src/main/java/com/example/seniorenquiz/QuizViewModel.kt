@@ -19,7 +19,7 @@ class QuizViewModel : ViewModel() {
         } else {
              // Text / Märchen
              when (category) {
-                "ALL" -> allQuestions.filter { !it.category.startsWith("GRIMM") }
+                "ALL" -> allQuestions.filter { !it.category.startsWith("GRIMM") && !it.category.startsWith("FEST_") }
                 "GRIMM_ALL" -> allQuestions.filter { it.category.startsWith("GRIMM") }
                 else -> allQuestions.filter { it.category == category }
             }
