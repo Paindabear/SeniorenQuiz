@@ -23,6 +23,7 @@ class ImageStartFragment : Fragment() {
         view.findViewById<MaterialButton>(R.id.btnImageGeography).setOnClickListener { startImageQuiz("GEOGRAPHY") }
         view.findViewById<MaterialButton>(R.id.btnImageMusic).setOnClickListener { startImageQuiz("MUSIC") }
         view.findViewById<MaterialButton>(R.id.btnImageTV).setOnClickListener { startImageQuiz("TV") }
+        view.findViewById<MaterialButton>(R.id.btnImageFarm).setOnClickListener { startImageQuiz("FARM") }
 
         return view
     }

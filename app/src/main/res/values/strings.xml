@@ -27,6 +27,7 @@
     <string name="category_easter">Ostern</string>
     <string name="category_pentecost">Pfingsten</string>
     <string name="category_christmas">Weihnachten</string>
+    <string name="category_farm">Farmtiere</string>
     <string name="default_quiz_title">Quiz</string>
     <string name="questions_updated_success">Neue Fragen wurden erfolgreich geladen!</string>
 </resources>

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew assembleDebug)",
+      "Bash(python3 -c \":*)",
+      "Bash(./gradlew assembleRelease)"
+    ]
+  }
+}

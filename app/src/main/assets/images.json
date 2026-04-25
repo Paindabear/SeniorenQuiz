@@ -537,5 +537,181 @@
         "correctAnswerIndex": 0,
         "category": "MUSIC",
         "imagePath": "peter_alexander.jpg"
+    },
+    {
+        "text": "Welches Tier sehen Sie hier?",
+        "answers": [
+            "Kuh",
+            "Büffel",
+            "Yak"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "kuh.jpg"
+    },
+    {
+        "text": "Welches wollige Tier ist das?",
+        "answers": [
+            "Schaf",
+            "Ziege",
+            "Alpaka"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "schaf.jpg"
+    },
+    {
+        "text": "Welches Tier mit Ringelschwanz ist hier zu sehen?",
+        "answers": [
+            "Schwein",
+            "Wildschwein",
+            "Ferkel"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "schwein.jpg"
+    },
+    {
+        "text": "Welches Federvieh ist das?",
+        "answers": [
+            "Huhn",
+            "Fasan",
+            "Wachtel"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "huhn.jpg"
+    },
+    {
+        "text": "Welches große Nutztier sehen Sie hier?",
+        "answers": [
+            "Pferd",
+            "Esel",
+            "Maultier"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "pferd.jpg"
+    },
+    {
+        "text": "Welches Tier mit Hörnern ist das?",
+        "answers": [
+            "Ziege",
+            "Schaf",
+            "Steinbock"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "ziege.jpg"
+    },
+    {
+        "text": "Welches Tier mit langen Ohren ist hier zu sehen?",
+        "answers": [
+            "Esel",
+            "Pferd",
+            "Maultier"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "esel.jpg"
+    },
+    {
+        "text": "Welcher Vogel vom Bauernhof ist das?",
+        "answers": [
+            "Gans",
+            "Ente",
+            "Schwan"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "gans.jpg"
+    },
+    {
+        "text": "Welches Tier watschelt hier am Teich?",
+        "answers": [
+            "Ente",
+            "Gans",
+            "Möwe"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "ente.jpg"
+    },
+    {
+        "text": "Welcher stolze Vogel kräht morgens?",
+        "answers": [
+            "Hahn",
+            "Pfau",
+            "Fasan"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "hahn.jpg"
+    },
+    {
+        "text": "Welches kleine Tier mit Schlappohren ist das?",
+        "answers": [
+            "Kaninchen",
+            "Hamster",
+            "Meerschweinchen"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "kaninchen.jpg"
+    },
+    {
+        "text": "Welcher große Vogel ist hier zu sehen?",
+        "answers": [
+            "Truthahn",
+            "Strauß",
+            "Pfau"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "truthahn.jpg"
+    },
+    {
+        "text": "Welches junge Tier steht hier auf der Wiese?",
+        "answers": [
+            "Lamm",
+            "Zicklein",
+            "Kalb"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "lamm.jpg"
+    },
+    {
+        "text": "Welches südamerikanische Tier lebt auch auf deutschen Höfen?",
+        "answers": [
+            "Lama",
+            "Alpaka",
+            "Guanako"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "lama.jpg"
+    },
+    {
+        "text": "Wie nennt man ein junges Schwein?",
+        "answers": [
+            "Ferkel",
+            "Frischling",
+            "Lamm"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "ferkel.jpg"
+    },
+    {
+        "text": "Welcher Hund hilft dem Bauern bei der Herde?",
+        "answers": [
+            "Hütehund",
+            "Jagdhund",
+            "Schlittenhund"
+        ],
+        "correctAnswerIndex": 0,
+        "category": "FARM",
+        "imagePath": "huetehund.jpg"
     }
 ]

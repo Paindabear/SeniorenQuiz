@@ -344,6 +344,7 @@ class QuizActivity : AppCompatActivity() {
             "FEST_EASTER" -> getString(R.string.category_easter)
             "FEST_PENTECOST" -> getString(R.string.category_pentecost)
             "FEST_CHRISTMAS" -> getString(R.string.category_christmas)
+            "FARM" -> getString(R.string.category_farm)
             else -> getString(R.string.default_quiz_title)
         }
     }
@@ -373,6 +374,7 @@ class QuizActivity : AppCompatActivity() {
             "FEST_EASTER" -> Color.parseColor("#FFF176")
             "FEST_PENTECOST" -> Color.parseColor("#81D4FA")
             "FEST_CHRISTMAS" -> Color.parseColor("#EF9A9A")
+            "FARM" -> Color.parseColor("#AED581")
             else -> Color.parseColor("#90A4AE")
         }
     }

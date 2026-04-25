@@ -136,5 +136,23 @@
             app:cornerRadius="50dp"
             app:elevation="8dp" />
 
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnImageFarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:minHeight="100dp"
+            android:text="Farmtiere"
+            android:textAllCaps="false"
+            android:textColor="#33691E"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_farm"
+            app:iconSize="48dp"
+            app:iconTint="#33691E"
+            app:backgroundTint="#DCEDC8"
+            app:cornerRadius="50dp"
+            app:elevation="8dp" />
+
     </LinearLayout>
 </ScrollView>
